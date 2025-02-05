@@ -7,10 +7,12 @@
 > Bem-vindo à **CozinhaLLM**, um repositório dedicado a reunir receitas práticas para o uso de modelos de linguagem open-source.
 
 ---
+## 📔 Sumário
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/9ea978a1-6d19-4126-bc4d-297ef3e4a043" alt="LLMs (1)">
-</p>
+- **Ollama**: Ferramente essencial para a instalação de modelos Open-Source.
+- **Modelos**: Cardápio de modelos com receitas disponíveis.
+- **Exemplos de Uso**: Aplicações práticas que fazem uso de modelos Open-Source.
+- **Contribuições**: Guia de contribuição.
 
 ---
 ## 🛠 Ollama
