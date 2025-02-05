@@ -1,4 +1,4 @@
-<h1 align="center">Cozinha LLM - Open Source</h1>
+<h1 align="center">Cozinha OpenSource</h1>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d299165c-0709-4272-9358-383f64b0426f" alt="LLMs (1)">
