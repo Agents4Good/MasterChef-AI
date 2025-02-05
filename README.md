@@ -22,7 +22,7 @@ Receitas para instalação e uso do Ollama, uma plataforma para execução de Mo
 
 Tutoriais para utilizar diferentes modelos de linguagem open-source. 
 
-- [DeepSeek-R1 1.5B](./modelos/deepSeekR1/deepSeekR1-1B.md)
+- [DeepSeek-R1 1.5B](./modelos/deepSeek/deepSeekR1-1B.md)
 
 ---
 ## 🚀 Exemplos de Uso
