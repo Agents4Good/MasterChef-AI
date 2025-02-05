@@ -5,10 +5,10 @@
 ---
 ## 📌 Índice
 
-- [Ollama](#ollama)
-- [Modelos](#modelos)
-- [Exemplos de Uso](#exemplos-de-uso)
-- [Contribuições](#contribuições)
+- [Ollama](#Ollama)
+- [Modelos](#Modelos)
+- [Exemplos de Uso](#Exemplos-de-uso)
+- [Contribuições](#Contribuições)
 
 ---
 ## 🛠 Ollama
