@@ -9,10 +9,9 @@
 ---
 ## 📌 Índice
 
-- [Ollama](#Ollama)
-- [Modelos](#Modelos)
-- [Exemplos de Uso](#Exemplos-de-uso)
-- [Contribuições](#Contribuições)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9ea978a1-6d19-4126-bc4d-297ef3e4a043" alt="LLMs (1)">
+</p>
 
 ---
 ## 🛠 Ollama
