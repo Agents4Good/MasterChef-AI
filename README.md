@@ -1,4 +1,8 @@
-<h1 align="center">Cozinha LLM</h1>
+<h1 align="center">Cozinha LLM - Open Source</h1>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d299165c-0709-4272-9358-383f64b0426f" alt="LLMs (1)">
+</p>
 
 > Bem-vindo à **CozinhaLLM**, um repositório dedicado a reunir receitas práticas para o uso de modelos de linguagem open-source.
 
@@ -15,7 +19,7 @@
 
 Receitas para instalação e uso do Ollama, uma plataforma para execução de Modelos de Linguagem localmente.
 
-🔗 [Guia de Instalação do Ollama](./ollama/install.md)
+- [Guia de Instalação do Ollama](./ollama/install.md)
 
 ---
 ## 🤖 Modelos
