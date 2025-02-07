@@ -1,7 +1,7 @@
 <h1 align="center">ReceitasLLM Open-Source</h1>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d299165c-0709-4272-9358-383f64b0426f" alt="LLMs (1)">
+  <img src="https://github.com/user-attachments/assets/3574b7a5-e390-4d5d-bc8c-e80e59dfb018" alt="Logo (1)">
 </p>
 
 > Bem-vindo à **CozinhaLLM**, um repositório dedicado a reunir receitas práticas para o uso de modelos de linguagem open-source.
