@@ -28,6 +28,7 @@ Bem-vindo à **ReceitasLLM**, um repositório dedicado a reunir receitas prátic
 ## 🔬 Destilação de Modelos
 
 - [Introdução sobre Destilação LLM](./destilacao/introducao.md)
+- [Formas de Implementação](./destilacao/implementacao.md)
 
 ---
 ## ☁️ Serviços de Infraestrutura em Nuvem
