@@ -30,6 +30,7 @@ Bem-vindo à **ReceitasLLM**, um repositório dedicado a reunir receitas prátic
 - [Introdução sobre Destilação LLM](./destilacao/introducao.md)
 - [Formas de Implementação](./destilacao/implementacao.md)
 - [Coleção de Artigos](./destilacao/artigos.md)
+- [Arquivos .ipynb](./destilacao/ipynb.md)
 
 ---
 ## ☁️ Serviços de Infraestrutura em Nuvem
