@@ -1,30 +1,48 @@
 # [DeepInfra](https://deepinfra.com/)
 
-DeepInfra fornece diferentes preços que dependem do modelo oferecido. No geral, alguns modelos são cobrados por milhão de tokens, enquanto outros são cobrados por tempo de uso (tempo de execução da inferência). Não há contratos de longo prazo ou custos antecipados, e o sistema escalona automaticamente o modelo para mais hardware com base nas necessidades.
+---
+## Motivação
 
-Eles também fornecem uma API compatível com a OpenAI e exemplos de código. Por outro lado, há também a possibilidade de fazer deploy de modelos em GPUs da Nvidia (como A100, H100, etc.), os próprios modelos que eles oferecem são executados nessas GPUs, o que eles afirmam oferecer baixa latência e boa performance nas inferências. Porém, não há informações específicas sobre a velocidade de inferência dos modelos.
+O avanço dos modelos de linguagem tem levado ao desenvolvimento de arquiteturas cada vez maiores e mais sofisticadas. No entanto, rodar esses modelos localmente exige hardware potente, como GPUs de última geração, tornando o acesso a esses modelos inviável para muitas empresas e desenvolvedores individuais. 
 
-Vários dos principais modelos oferecidos possuem detalhes adicionais sobre suas especificações (como modos de uso, benchmarks, papers, repositórios, etc.), além dos seus respectivos preços por token.
+Plataformas como a **DeepInfra** surgem para solucionar esse problema, oferecendo infraestrutura escalável para rodar inferências de modelos de linguagem sem a necessidade de possuir hardware especializado. Dessa forma, usuários podem acessar modelos avançados sob demanda, pagando apenas pelo uso e sem necessidade de manutenção de servidores dedicados.
 
-### Faturamento
+---
+## Introdução ao DeepInfra
 
-O DeepInfra utiliza um sistema de faturamento baseado no uso dos seus serviços. Para utilizar a plataforma, é necessário adicionar um cartão de crédito ou realizar um pré-pagamento; caso contrário, os serviços não estarão disponíveis. Uma fatura é gerada no início de cada mês ou sempre que atinge o limite de faturamento do seu nível de uso. A plataforma opera com níveis de uso que determinam os limites de faturamento. Conforme seu uso e gastos aumentam, você é automaticamente movido para o próximo nível. Cada nível possui um limite de faturamento específico, e uma fatura é gerada automaticamente ao atingir esse limite.
+DeepInfra oferece preços variados dependendo do modelo. Alguns são cobrados por milhão de tokens, enquanto outros são tarifados pelo tempo de uso da inferência. Não há contratos de longo prazo nem custos antecipados, e a escalabilidade ocorre automaticamente conforme a demanda.
 
-### Exemplos de Modelos e Preços por Milhão de Tokens
+A plataforma fornece uma API compatível com a OpenAI, exemplos de código e a possibilidade de deploy de modelos em GPUs Nvidia (A100, H100, etc.), garantindo baixa latência e boa performance. No entanto, não há informações detalhadas sobre a velocidade de inferência dos modelos.
 
-Aqui estão alguns dos principais modelos oferecidos e seus custos:
+---
+## Faturamento
 
-- **meta-llama/Llama-3.3-70B-Instruct**  
-  Custo: $0.23 (in) / $0.40 (out) por milhão de tokens.
-  
-- **meta-llama/Llama-3.3-70B-Instruct-Turbo**  
-  Custo: $0.12 (in) / $0.30 (out) por milhão de tokens.
-  
-- **deepseek-ai/DeepSeek-R1**  
-  Custo: $0.75 (in) / $2.40 (out) por milhão de tokens.
-  
-- **deepseek-ai/DeepSeek-R1-Distill-Llama-70B**  
-  Custo: $0.23 (in) / $0.69 (out) por milhão de tokens.
-  
-- **deepseek-ai/DeepSeek-V3**  
-  Custo: $0.49 (in) / $0.89 (out) por milhão de tokens.
+O sistema de faturamento do DeepInfra é baseado no uso dos serviços. Para utilizar a plataforma, é necessário adicionar um cartão de crédito ou realizar um pré-pagamento. As cobranças ocorrem das seguintes formas:
+
+- Uma fatura é gerada no início de cada mês ou ao atingir o limite do nível de uso.
+- O sistema opera com **níveis de uso**, onde, conforme os gastos aumentam, o usuário é movido automaticamente para um nível superior.
+- Cada nível possui um limite de faturamento, e uma nova fatura é gerada ao atingir esse limite.
+
+---
+## Modelos e Preços
+
+A tabela a seguir apresenta alguns dos principais modelos disponíveis e seus custos por milhão de tokens:
+
+| Modelo | Custo (Entrada) | Custo (Saída) |
+|--------|----------------|---------------|
+| **meta-llama/Llama-3.3-70B-Instruct** | $0.23 | $0.40 |
+| **meta-llama/Llama-3.3-70B-Instruct-Turbo** | $0.12 | $0.30 |
+| **deepseek-ai/DeepSeek-R1** | $0.75 | $2.40 |
+| **deepseek-ai/DeepSeek-R1-Distill-Llama-70B** | $0.23 | $0.69 |
+| **deepseek-ai/DeepSeek-V3** | $0.49 | $0.89 |
+
+---
+## Recursos Adicionais
+
+- **Compatibilidade com API OpenAI**
+- **Escalabilidade Automática** baseada na demanda
+- **Suporte para GPUs Nvidia** (A100, H100, etc.)
+- **Detalhes Técnicos** para modelos, incluindo benchmarks, papers e repositórios
+
+---
+Para mais detalhes, acesse [DeepInfra](https://deepinfra.com/).
