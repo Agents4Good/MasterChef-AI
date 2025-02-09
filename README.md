@@ -15,7 +15,7 @@ Bem-vindo à **ReceitasLLM**, um repositório dedicado a reunir receitas prátic
 ---
 ## 🤖 Modelos
 
-> Pré-Requisito: [Guia de Instalação do Ollama](./ollama/install.md)
+> Pré-Requisito: [Ollama](./ollama/install.md)
 
 - [DeepSeek-R1 1.5B](./modelos/deepSeek/deepSeekR1-1B.md)
 
