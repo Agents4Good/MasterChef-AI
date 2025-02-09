@@ -4,4 +4,4 @@
 
 ### [Enhancing Knowledge Distillation for LLMs with Response-Priming Prompting](https://arxiv.org/abs/2412.17846)
 
-### [Distillation Quantification for Large Language Models](https://arxiv.org/abs/2501.12619)
+### [s1: Simple test-time scaling](https://arxiv.org/pdf/2501.19393)
