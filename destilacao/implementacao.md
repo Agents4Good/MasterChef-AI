@@ -68,8 +68,7 @@ O processo de destilação ocorre em três etapas principais:
 - **Uso de Recursos**: Monitora a demanda computacional do modelo aluno durante a inferência, garantindo que ele seja viável para ambientes com restrições de hardware.
 
 ---
-## 4. Conclusão
+## 4. Fontes
 
-Com a utilização de bibliotecas como Hugging Face, TensorFlow Model Optimization e PyTorch Distiller, é possível implementar a destilação de forma eficiente,
-tornando os modelos mais acessíveis para aplicações em tempo real e dispositivos com recursos limitados.
-
+- [DataCamp Blog](https://www.datacamp.com/blog/distillation-llm)
+- [Survey Arxiv.org](https://arxiv.org/abs/2402.13116) 
