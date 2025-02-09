@@ -88,8 +88,10 @@ Outra vantagem significativa da destilação de LLMs é a redução dos **custos
 Isso possibilita que **mais empresas e desenvolvedores adotem modelos de IA de alto desempenho**, sem a necessidade de grandes investimentos em hardware.  
 
 ---
-## **8. Conclusão**  
+## **8. Fontes**
 
-A destilação de LLMs representa uma solução inovadora para tornar modelos de linguagem mais **eficientes, acessíveis e escaláveis**.  
-
-Essa abordagem tem o potencial de transformar o desenvolvimento de IA, possibilitando o uso de **modelos poderosos em dispositivos com recursos limitados**, como smartphones e sistemas embarcados.  
+- [DataCamp Blog](https://www.datacamp.com/blog/distillation-llm)
+- [ProjectPro Blog](https://www.projectpro.io/article/llm-distillation/1056)
+- [Google ML Concepts](https://developers.google.com/machine-learning/crash-course/llm/tuning)
+- [Snorkel Blog](https://snorkel.ai/blog/llm-distillation-demystified-a-complete-guide/)
+- [Survey Arxiv.org](https://arxiv.org/abs/2402.13116) 
