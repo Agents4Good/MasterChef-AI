@@ -7,41 +7,35 @@ Bem-vindo à **ReceitasLLM**, um repositório dedicado a reunir receitas prátic
 ---
 ## 📔 Sumário
 
-- **Ollama**: Ferramente essencial para a instalação de modelos Open-Source.
 - **Modelos**: Cardápio de modelos com receitas disponíveis.
 - **Aplicações**: Aplicações práticas que fazem uso de modelos Open-Source.
+- **Destilação de Modelos**: Transferência de conhecimento de um modelo maior, para um menor.
 - **Serviços de Infraestrutura em Nuvem**: Recursos computacionais sob demanda.
-- **Contribuições**: Guia de contribuição.
-
----
-## 🛠 Ollama
-
-Receitas para instalação e uso do Ollama, uma plataforma para execução de Modelos de Linguagem localmente.
-
-- [Guia de Instalação do Ollama](./ollama/install.md)
 
 ---
 ## 🤖 Modelos
 
-Tutoriais para utilizar diferentes modelos de linguagem open-source. 
+> É recomendável conhecer um pouco sobre o Ollama antes de explorar as receitas dos modelos.<br>
+> Leitura recomendada: [Guia de Instalação do Ollama](./ollama/install.md)
 
 - [DeepSeek-R1 1.5B](./modelos/deepSeek/deepSeekR1-1B.md)
 
 ---
 ## 🚀 Aplicações
 
-Receitas práticas para diferentes aplicações com LLMs.
-
+> Receitas práticas para diferentes aplicações com LLMs.<br>
 > Em construção
+
+---
+## 🔬 Destilação de Modelos
+
+> Destilação LLM desmistificada: um guia completo.
+
+- [Introdução sobre Destilação LLM](./destilacao/introducao.md)
 
 ---
 ## ☁️ Serviços de Infraestrutura em Nuvem
 
-Executar modelos de linguagem localmente exige hardware poderoso, os serviços abaixo podem solucionar este problema.
+> Executar modelos de linguagem localmente exige hardware poderoso, os serviços abaixo podem solucionar este problema.
 
 - [DeepInfra](./infraestrutura/deepInfra.md)
-
----
-## 🤝 Contribuições
-
-Quer contribuir com novas receitas? Fique à vontade para abrir um **Pull Request**!
