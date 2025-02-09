@@ -15,27 +15,21 @@ Bem-vindo à **ReceitasLLM**, um repositório dedicado a reunir receitas prátic
 ---
 ## 🤖 Modelos
 
-> É recomendável conhecer um pouco sobre o Ollama antes de explorar as receitas dos modelos.<br>
-> Leitura recomendada: [Guia de Instalação do Ollama](./ollama/install.md)
+> Pré-Requisito: [Guia de Instalação do Ollama](./ollama/install.md)
 
 - [DeepSeek-R1 1.5B](./modelos/deepSeek/deepSeekR1-1B.md)
 
 ---
 ## 🚀 Aplicações
 
-> Receitas práticas para diferentes aplicações com LLMs.<br>
 > Em construção
 
 ---
 ## 🔬 Destilação de Modelos
 
-> Destilação LLM desmistificada: um guia completo.
-
 - [Introdução sobre Destilação LLM](./destilacao/introducao.md)
 
 ---
 ## ☁️ Serviços de Infraestrutura em Nuvem
-
-> Executar modelos de linguagem localmente exige hardware poderoso, os serviços abaixo podem solucionar este problema.
 
 - [DeepInfra](./infraestrutura/deepInfra.md)
