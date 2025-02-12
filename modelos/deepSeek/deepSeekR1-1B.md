@@ -40,27 +40,30 @@ pip install virtualenv
 ```
 
 **2️⃣ Crie um diretório para o projeto e acesse-o**
+
+> Suponha que eu criei o diretório: "my-project"
+
 ```shell
-cd /caminho/do/seu/projeto
+cd my-project
 ```
 
 **3️⃣ Crie o ambiente virtual**
 ```shell
-python -m venv meu_ambiente_virtual
+python -m venv venv
 ```
 
-**Dica:** Substitua `meu_ambiente_virtual` pelo nome desejado para o ambiente virtual.
+**Venv:** O comando acima irá criar um diretório venv, que contém tudo que o ambiente virtual precisa.
 
 **4️⃣ Ative o ambiente virtual**
 
 🔹 Windows:
 ```shell
-meu_ambiente_virtual\Scripts\activate
+venv\Scripts\activat
 ```
 
 🔹 Linux/Mac:
 ```shell
-source meu_ambiente_virtual/bin/activate
+source venv/bin/activate
 ```
 
 **5️⃣ Desativando o ambiente virtual**
