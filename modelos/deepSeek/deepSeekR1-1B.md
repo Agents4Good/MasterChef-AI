@@ -114,3 +114,53 @@ print(response.message.content)
 **Nota:** Caso enfrente erros ao acessar a biblioteca `ollama`, verifique se o ambiente virtual está ativo.
 
 ---
+## 🦜 LangChain
+
+> Para facilitar nossas vidas, existe um framework chamado LangChain, que potencializa nossas aplicações de IA.
+
+Veja o mesmo código mostrado na seção anterior, mas dessa vez com o LangChain.
+
+```python
+from langchain_ollama import ChatOllama
+
+chat = ChatOllama(model="deepseek-r1:1.5b")
+
+response = chat.invoke("Why is the sky blue?")
+print(response.content)
+```
+
+Para usar o LangChain, instale:
+```shell
+pip install langchain
+pip install langchain-ollama
+```
+
+Outros parâmetros:
+```python
+from langchain_ollama import ChatOllama
+
+# Inicializa o modelo
+chat = ChatOllama(model="llama3.2:1b")
+
+# Faz a requisição ao modelo
+response = chat.invoke("Conte uma piada")
+
+# Imprime o conteúdo da resposta
+print("\n--- Conteúdo da Resposta ---")
+print(response.content)
+
+# Imprime as configurações do modelo
+print("\n--- Configurações do Modelo ---")
+for key, value in response.response_metadata.items():
+    print(f"{key}: {value}")
+
+# Imprime informações sobre o uso de tokens
+print("\n--- Informações de Tokens ---")
+for key, value in response.usage_metadata.items():
+    print(f"{key}: {value}")
+```
+
+---
+## ▶️ Curso completo de LangChain
+ 
+Link: https://www.youtube.com/playlist?list=PLMoimn-EsfC0o6W40guBc3c43Y1NAu_e5
