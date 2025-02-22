@@ -140,10 +140,10 @@ Outros parâmetros:
 from langchain_ollama import ChatOllama
 
 # Inicializa o modelo
-chat = ChatOllama(model="llama3.2:1b")
+chat = ChatOllama(model="deepseek-r1:1.5b")
 
 # Faz a requisição ao modelo
-response = chat.invoke("Conte uma piada")
+response = chat.invoke("Why is the sky blue?")
 
 # Imprime o conteúdo da resposta
 print("\n--- Conteúdo da Resposta ---")
