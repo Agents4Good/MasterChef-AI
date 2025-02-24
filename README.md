@@ -35,4 +35,4 @@ Bem-vindo à **ReceitasLLM**, um repositório dedicado a reunir receitas prátic
 ---
 ## ☁️ Serviços de Infraestrutura em Nuvem
 
-- [DeepInfra](./infraestrutura/deepInfra.md)
+- [Análise Custo/Benefício](./infraestrutura/analiseCustoBeneficio.md)
