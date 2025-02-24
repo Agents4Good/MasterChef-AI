@@ -1,5 +1,7 @@
 ### Preços de Serviços de Infra LLM 
 
+> Dados de Fev/2025
+
 ## DeepInfra  
 [Veja a fonte](https://deepinfra.com/pricing)  
 
