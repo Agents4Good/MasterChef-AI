@@ -28,7 +28,6 @@ Bem-vindo à **ReceitasLLM**, um repositório dedicado a reunir receitas prátic
 ## 🔬 Destilação de Modelos
 
 - [Introdução sobre Destilação LLM](./destilacao/introducao.md)
-- [Formas de Implementação](./destilacao/implementacao.md)
 - [Coleção de Artigos](./destilacao/artigos.md)
 - [Exemplos de Destilação](./destilacao/tabela_com_exemplos.md)
 
