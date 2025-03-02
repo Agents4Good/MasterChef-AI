@@ -22,7 +22,7 @@ Bem-vindo à **ReceitasLLM**, um repositório dedicado a reunir receitas prátic
 ---
 ## 🚀 Aplicações
 
-> Em construção
+- [Chat Bot com LangChain, Ollama e StreamLit](./aplicacoes/app01)
 
 ---
 ## 🔬 Destilação de Modelos
