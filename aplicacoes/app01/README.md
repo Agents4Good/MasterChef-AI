@@ -1,12 +1,11 @@
-# 🎥 Aula 02 - Criando um Chat Médico com LangChain e Streamlit
+## 🟣 Contextualização
+
+Hoje, vamos sair do terminal e criar nossa primeira aplicação web, usando **Streamlit**.
+
+Essa aplicação será um **Chat Médico**, onde o usuário informa sintomas e recebe uma orientação inicial de um assistente médico simulado pelo modelo de linguagem.
 
 ---
-## 🟢 Introdução (Contextualização)
-
-Olá, pessoal! Bem-vindos à segunda aula do nosso curso completo de LangChain. Hoje, vamos sair do terminal e criar nossa primeira aplicação web, usando **Streamlit**. Essa aplicação será um **Chat Médico**, onde o usuário informa sintomas e recebe uma orientação inicial de um assistente médico simulado pelo modelo de linguagem.
-
----
-## 🟢 Objetivo
+## 🟣 Objetivo
 
 O objetivo é criar uma interface simples de chat, onde:
 - O usuário escreve seus sintomas.
@@ -14,7 +13,12 @@ O objetivo é criar uma interface simples de chat, onde:
 - As mensagens são exibidas em formato de chat, com histórico, igual em aplicativos reais de conversa.
 
 ---
-## 🟢 Instalando as Dependências
+## 🟣 Exemplo
+
+![image](https://github.com/user-attachments/assets/7af20c68-8694-44a2-8e6d-01aa294b6e06)
+
+---
+## 🟣 Instalando as Dependências
 
 > Lembre de usar o ambiente virtual ativo, .venv
 
@@ -34,7 +38,7 @@ pip install langchain-core
 ```
 
 ---
-## 🟢 Passo a passo do código
+## 🟣 Passo a passo do código
 
 ### 1️⃣ Configuração inicial da página Streamlit
 
@@ -153,7 +157,7 @@ st.session_state["chat_history"] += [AIMessage(ai_message)]
 - Adiciona a resposta da IA no histórico.
 
 ---
-## 🟢 Conclusão e Demonstração
+## 🟣 Conclusão e Demonstração
 
 Para rodar a aplicação:
 
@@ -167,7 +171,7 @@ Demonstre:
 - Continuar a conversa.
 
 ---
-## 🟢 Resumo visual
+## 🟣 Resumo visual
 
 | Etapa                   | Código                          |
 |-------------------|--------------------|
@@ -181,12 +185,3 @@ Demonstre:
 | Salvar resposta       | `chat_history += [...]` |
 
 ---
-## 🟢 Fechamento
-
-Essa é uma base simples, mas poderosa. No futuro, podemos expandir com:
-- Melhor histórico.
-- Personalização de prompt.
-- Integração com outros modelos.
-
----
-
