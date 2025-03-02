@@ -22,6 +22,7 @@ Bem-vindo à **ReceitasLLM**, um repositório dedicado a reunir receitas prátic
 ---
 ## 🚀 Aplicações
 
+- [Curso completo LangChain](https://www.youtube.com/playlist?list=PLMoimn-EsfC0IRLVyfhJI3M3HZd7tFzgj)
 - [Chat Bot com LangChain, Ollama e StreamLit](./aplicacoes/app01)
 
 ---
