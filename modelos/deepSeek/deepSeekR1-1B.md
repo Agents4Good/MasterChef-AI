@@ -159,8 +159,3 @@ print("\n--- Informações de Tokens ---")
 for key, value in response.usage_metadata.items():
     print(f"{key}: {value}")
 ```
-
----
-## ▶️ Curso completo de LangChain
- 
-Link: https://www.youtube.com/playlist?list=PLMoimn-EsfC0o6W40guBc3c43Y1NAu_e5
