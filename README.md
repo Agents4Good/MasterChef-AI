@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # 🍽️ Receitas LLM
 
 Olá! Este repositório oferece tutoriais e aplicações práticas, com exemplos de LLMs Open-Source, além de técnicas de destilação e fine-tuning para otimização de modelos.
