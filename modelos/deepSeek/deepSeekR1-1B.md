@@ -1,6 +1,6 @@
 <h1 align="center">DeepSeek-R1 1.5B</h1>
 
-> Antes de começar, certifique-se de que já instalou o Ollama seguindo este guia: [Ollama - Instalação](https://github.com/Agents4Good/CozinhaLLM/blob/main/ollama/install.md)
+**Nota:** Antes de começar, certifique-se de que já instalou o Ollama seguindo este guia: [Ollama - Instalação](https://github.com/Agents4Good/CozinhaLLM/blob/main/ollama/install.md)
 
 ---
 ## 🚀 Executando o DeepSeek no Ollama
@@ -68,12 +68,12 @@ source venv/bin/activate
 
 **5️⃣ Desativando o ambiente virtual**
 ```shell
-deactivate
+desactivate
 ```
 
-> Para reativar, basta executar novamente o comando de ativação.
+Para reativar, basta executar novamente o comando de ativação.
 
-> Ficou com dúvidas sobre o ambiente virtual? Acesse os links abaixo.<br>
+Ficou com dúvidas sobre o ambiente virtual? Acesse os links a seguir.<br>
 [Tutorial Completo Venv - Medium](https://dev.to/franciscojdsjr/guia-completo-para-usar-o-virtual-environment-venv-no-python-57bo)<br>
 [Documentação](https://docs.python.org/pt-br/3.13/library/venv.html)
 
@@ -129,10 +129,4 @@ response = chat.invoke("Why is the sky blue?")
 print(response.content)
 ```
 
-Para usar o LangChain, instale:
-```shell
-pip install langchain
-pip install langchain-ollama
-```
-
-Curso completo de langchain: [youtube.com - playlist](https://www.youtube.com/playlist?list=PLMoimn-EsfC0IRLVyfhJI3M3HZd7tFzgj)
+**Nota:** No tópico "Aplicações", há exemplos de uso do LangChain.
