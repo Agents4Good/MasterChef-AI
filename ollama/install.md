@@ -2,7 +2,6 @@
 
 
 Versão em Vídeo: [https://youtu.be/hCAJJ071WFA](https://youtu.be/hCAJJ071WFA)<br>
-Este tutorial ensina como instalar e testar o **Ollama**, uma plataforma para execução de Modelos de Linguagem localmente.  
 
 ---
 ## 🖥️ **1. Acesse o Site Oficial**  
