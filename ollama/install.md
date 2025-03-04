@@ -1,7 +1,7 @@
 <h1 align="center">Guia de Instalação - Ollama</h1>
 
-Versão em Vídeo: [https://youtu.be/hCAJJ071WFA](https://youtu.be/hCAJJ071WFA)
 
+Versão em Vídeo: [https://youtu.be/hCAJJ071WFA](https://youtu.be/hCAJJ071WFA)<br>
 Este tutorial ensina como instalar e testar o **Ollama**, uma plataforma para execução de Modelos de Linguagem localmente.  
 
 ---
