@@ -116,7 +116,7 @@ print(response.message.content)
 ---
 ## 🦜 LangChain
 
-> Para facilitar nossas vidas, existe um framework chamado LangChain, que potencializa nossas aplicações de IA.
+Para facilitar nossas vidas, existe um framework chamado LangChain, que potencializa nossas aplicações de IA.
 
 Veja o mesmo código mostrado na seção anterior, mas dessa vez com o LangChain.
 
@@ -135,4 +135,4 @@ pip install langchain
 pip install langchain-ollama
 ```
 
-> Curso completo de langchain: [youtube.com - playlist](https://www.youtube.com/playlist?list=PLMoimn-EsfC0IRLVyfhJI3M3HZd7tFzgj)
+Curso completo de langchain: [youtube.com - playlist](https://www.youtube.com/playlist?list=PLMoimn-EsfC0IRLVyfhJI3M3HZd7tFzgj)
