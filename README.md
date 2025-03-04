@@ -14,7 +14,7 @@
 ---
 ## 🚀 Aplicações
 
-- [Curso completo LangChain](https://www.youtube.com/playlist?list=PLMoimn-EsfC0IRLVyfhJI3M3HZd7tFzgj)
+- [Curso completo LangChain - Playlist Youtube](https://www.youtube.com/playlist?list=PLMoimn-EsfC0IRLVyfhJI3M3HZd7tFzgj)
 - [Chat Bot com LangChain, Ollama e StreamLit](./aplicacoes/app01)
 
 ---
@@ -22,8 +22,3 @@
 
 - [Coleção de Artigos](./destilacao/artigos.md)
 - [Exemplos de Destilação](./destilacao/tabela_com_exemplos.md)
-
----
-## ☁️ Serviços de Infraestrutura em Nuvem
-
-- [Análise Custo/Benefício](./infraestrutura/analiseCustoBeneficio.md)
