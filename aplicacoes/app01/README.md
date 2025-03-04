@@ -1,7 +1,5 @@
 # WebDoctor 
 
-> Nossa primeira aplicação!
-
 ---
 ## 🟣 Contextualização
 
@@ -25,7 +23,7 @@ O objetivo é criar uma interface simples de chat, onde:
 ---
 ## 🟣 Instalando as Dependências
 
-> Lembre de usar o ambiente virtual ativo, .venv
+**Nota:** Lembre de usar o ambiente virtual ativo, .venv
 
 Instale o Streamlit com:
 ```bash
@@ -169,11 +167,6 @@ Para rodar a aplicação:
 ```bash
 streamlit run app.py
 ```
-
-Demonstre:
-- Enviar sintomas.
-- Ver a resposta da IA.
-- Continuar a conversa.
 
 ---
 ## 🟣 Resumo visual
