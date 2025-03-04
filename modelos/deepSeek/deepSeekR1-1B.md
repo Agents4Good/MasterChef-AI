@@ -41,7 +41,7 @@ pip install virtualenv
 
 **2️⃣ Crie um diretório para o projeto e acesse-o**
 
-> Suponha que eu criei o diretório: "my-project"
+Suponha que eu criei o diretório: "my-project"
 
 ```shell
 cd my-project
