@@ -93,7 +93,7 @@ Abra o diretório do seu projeto no **VSCode** e certifique-se de que está usan
 ![Untitled design](https://github.com/user-attachments/assets/34483997-5cc7-4428-9967-2c648cef13f2)
 
 ---
-## 📝 Exemplo de Código em Python
+## 📝 Exemplo de Código em Python e Ollama
 
 ```python
 from ollama import chat
@@ -135,27 +135,4 @@ pip install langchain
 pip install langchain-ollama
 ```
 
-Outros parâmetros:
-```python
-from langchain_ollama import ChatOllama
-
-# Inicializa o modelo
-chat = ChatOllama(model="deepseek-r1:1.5b")
-
-# Faz a requisição ao modelo
-response = chat.invoke("Why is the sky blue?")
-
-# Imprime o conteúdo da resposta
-print("\n--- Conteúdo da Resposta ---")
-print(response.content)
-
-# Imprime as configurações do modelo
-print("\n--- Configurações do Modelo ---")
-for key, value in response.response_metadata.items():
-    print(f"{key}: {value}")
-
-# Imprime informações sobre o uso de tokens
-print("\n--- Informações de Tokens ---")
-for key, value in response.usage_metadata.items():
-    print(f"{key}: {value}")
-```
+> Curso completo de langchain: [youtube.com - playlist](https://www.youtube.com/playlist?list=PLMoimn-EsfC0IRLVyfhJI3M3HZd7tFzgj)
