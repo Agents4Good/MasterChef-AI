@@ -1,4 +1,4 @@
-# 🍽️ Receitas LLM
+<h1 align="center">Receitas LLM</h1>
 
 Olá! Este repositório oferece tutoriais e aplicações práticas, com exemplos de LLMs Open-Source, além de técnicas de destilação e fine-tuning para otimização de modelos.
 
@@ -13,8 +13,7 @@ Olá! Este repositório oferece tutoriais e aplicações práticas, com exemplos
 ---
 ## 🤖 Modelos
 
-> Pré-Requisito: [Ollama](./ollama/install.md)
-
+- Pré-Requisito: [Ollama](./ollama/install.md)
 - [DeepSeek-R1 1.5B](./modelos/deepSeek/deepSeekR1-1B.md)
 
 ---
