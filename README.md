@@ -1,8 +1,10 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/3574b7a5-e390-4d5d-bc8c-e80e59dfb018" alt="Logo (1)">
-</p>
+---
+layout: default
+---
 
-Bem-vindo à **ReceitasLLM**, um repositório dedicado a reunir receitas práticas para o uso de modelos de linguagem open-source.
+# 🍽️ Receitas LLM
+
+Olá! Este repositório oferece tutoriais e aplicações práticas, com exemplos de LLMs Open-Source, além de técnicas de destilação e fine-tuning para otimização de modelos.
 
 ---
 ## 📔 Sumário
