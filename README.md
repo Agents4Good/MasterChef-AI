@@ -14,7 +14,6 @@
 ---
 ## 🚀 Aplicações
 
-- [Curso completo LangChain - Playlist Youtube](https://www.youtube.com/playlist?list=PLMoimn-EsfC0IRLVyfhJI3M3HZd7tFzgj)
 - [Chat Bot com LangChain, Ollama e StreamLit](./aplicacoes/app01)
 
 ---
