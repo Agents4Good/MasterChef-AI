@@ -20,4 +20,3 @@
 ## 🔬 Destilação de Modelos
 
 - [Coleção de Artigos](./destilacao/artigos.md)
-- [Exemplos de Destilação](./destilacao/tabela_com_exemplos.md)
