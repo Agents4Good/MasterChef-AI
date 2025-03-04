@@ -1,7 +1,6 @@
 <h1 align="center">Guia de Instalação - Ollama</h1>
 
-
-Versão em Vídeo: [https://youtu.be/hCAJJ071WFA](https://youtu.be/hCAJJ071WFA)<br>
+**Versão em Vídeo**: [https://youtu.be/hCAJJ071WFA](https://youtu.be/hCAJJ071WFA)<br>
 
 ---
 ## 🖥️ **1. Acesse o Site Oficial**  
