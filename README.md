@@ -3,7 +3,7 @@
 - **Modelos**: Cardápio de modelos com receitas disponíveis.
 - **Aplicações**: Aplicações práticas que fazem uso de modelos Open-Source.
 - **Destilação de Modelos**: Transferência de conhecimento de um modelo maior, para um menor.
-- **Serviços de Infraestrutura em Nuvem**: Recursos computacionais sob demanda.
+- **Fine Tuning**: Em construção
 
 ---
 ## 🤖 Modelos
