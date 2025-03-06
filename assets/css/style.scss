@@ -2,31 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-body {
-    background-color: #fcdfd1;
-    font-family: 'Arial', sans-serif;
-}
 
-.page-header {
-    background: #8e44ad;
-    text-align: center;
-    padding: 4rem 1rem;
-}
-
-h1, h2, h3 {
-    color: #FA8072;
-}
-
-p {
-    color: #555;
-}
-
-.btn {
-    background-color: #ff9800;
-    color: #fff;
-    border: none;
-    &:hover {
-        background-color: #f57c00;
-    }
-}
-
+// O código .sccs não está funcionando no tema architect... Não muda nada e já tentei várias coisas
+// link útil: https://github.com/pages-themes/architect
+// nos outros temas, funcionam as mudanças. Mas são horríveis, não são responsivos.
