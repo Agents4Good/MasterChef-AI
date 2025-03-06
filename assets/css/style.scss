@@ -3,20 +3,18 @@
 
 @import "{{ site.theme }}";
 body {
-    background-color: #f9f5f3;
-    color: #333;
+    background-color: #fcdfd1;
     font-family: 'Arial', sans-serif;
 }
 
 .page-header {
-    background: linear-gradient(135deg, #00796b, #009688);
-    color: #fff;
+    background: #FF7F50;
     text-align: center;
     padding: 4rem 1rem;
 }
 
 h1, h2, h3 {
-    color: #00796b;
+    color: #FA8072;
 }
 
 p {
