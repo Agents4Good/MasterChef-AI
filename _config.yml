@@ -3,4 +3,3 @@ description: Um livro de receitas para modelos de linguagem Open-Source.
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme
-style: ./style.css
