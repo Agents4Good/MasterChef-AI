@@ -3,17 +3,32 @@
 
 @import "{{ site.theme }}";
 body {
-  background-color: #f3dbcf;
+    background-color: #f9f5f3;
+    color: #333;
+    font-family: 'Arial', sans-serif;
 }
 
-hr {
-  border: none;
-  background: none;
-  height: 0;
+.page-header {
+    background: linear-gradient(135deg, #00796b, #009688);
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem;
 }
 
-.page hr {
-  display: block; /* Mantém as linhas do Markdown */
-  border-top: 1px solid #ccc; /* Ou ajuste a cor desejada */
+h1, h2, h3 {
+    color: #00796b;
+}
+
+p {
+    color: #555;
+}
+
+.btn {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    &:hover {
+        background-color: #f57c00;
+    }
 }
 
