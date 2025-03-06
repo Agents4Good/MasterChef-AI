@@ -1,3 +1,8 @@
+# 🍪 Receitas IA
+
+> Olá! Este é o seu livro de receitas Open-Source, sobre diferentes tecnologias de Inteligência Artificial.
+
+---
 ## 📔 Sumário
 
 - **Modelos**: Cardápio de modelos com receitas disponíveis.
