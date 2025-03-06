@@ -7,9 +7,14 @@ body {
 }
 
 hr {
-  display: none;
+  border: none;
+  background: none;
+  height: 0;
 }
 
-h2, section {
-  border-bottom: none;
+.page hr {
+  display: block; /* Mantém as linhas do Markdown */
+  border-top: 1px solid #ccc; /* Ou ajuste a cor desejada */
+  margin: 20px 0; /* Ajuste o espaçamento */
 }
+
