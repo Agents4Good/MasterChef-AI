@@ -81,12 +81,6 @@ tr:nth-child(odd) td {
     overflow-x: auto; /* Garante scroll horizontal se necessário */
 }
 
-/* Opcional: deixa o texto do código mais escuro para contrastar bem */
-.highlight code {
-    color: #2e2e2e;
-    font-weight: bold;
-}
-
 /* Estilo inline code (trechos curtos dentro do texto) */
 code {
     background-color: #ffb6a9;
@@ -94,4 +88,14 @@ code {
     padding: 2px 5px;
     border-radius: 3px;
     font-weight: bold;
+}
+
+/* Remove a caixinha branca e ajusta o texto diretamente no fundo salmão */
+.highlight pre, .highlight code {
+    background-color: transparent; /* Remove fundo branco */
+    color: #2e2e2e; /* Texto escuro */
+    font-weight: bold;
+    padding: 0;
+    border: none;
+    box-shadow: none;
 }
