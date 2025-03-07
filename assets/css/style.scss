@@ -71,3 +71,27 @@ table, th, td {
 tr:nth-child(odd) td {
     background-color: #ffd5d5;
 }
+
+/* Estiliza caixas de código (code blocks) */
+.highlight {
+    background-color: #ffb6a9; /* Salmão */
+    border: 1px solid #ff4b3e; /* Borda mais escura, tom Kunumi */
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto; /* Garante scroll horizontal se necessário */
+}
+
+/* Opcional: deixa o texto do código mais escuro para contrastar bem */
+.highlight code {
+    color: #2e2e2e;
+    font-weight: bold;
+}
+
+/* Estilo inline code (trechos curtos dentro do texto) */
+code {
+    background-color: #ffb6a9;
+    color: #2e2e2e;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
