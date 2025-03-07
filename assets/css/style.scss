@@ -99,3 +99,38 @@ code {
     border: none;
     box-shadow: none;
 }
+
+.contributors {
+  background-color: #f0f0f0; // Cinza claro
+  padding: 15px;
+  border-radius: 8px; // Bordas arredondadas
+  width: fit-content;
+}
+
+.contributors h3 {
+  margin-top: 0;
+}
+
+.contributors-list {
+  list-style: none; // Remove os marcadores da lista
+  padding: 0;
+}
+
+.contributors-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.contributors-list img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; // Deixa a imagem do contribuidor circular
+}
+
+.contributors-list a {
+  text-decoration: none;
+  color: #0073e6; // Azul padrão do GitHub
+  font-weight: bold;
+}
