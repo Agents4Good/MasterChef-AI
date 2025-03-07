@@ -1,9 +1,9 @@
-<h1 align="center">Guia de Instalação - Ollama</h1>
+# 💡 Guia de Instalação Ollama
 
-**Versão em Vídeo**: [https://youtu.be/hCAJJ071WFA](https://youtu.be/hCAJJ071WFA)<br>
+- Versão em Vídeo: [https://youtu.be/hCAJJ071WFA](https://youtu.be/hCAJJ071WFA)<br>
 
 ---
-## 🖥️ **1. Acesse o Site Oficial**  
+## 🖥️ 1. Acesse o Site Oficial  
 
 🔗 **Site Oficial:** [https://ollama.com/](https://ollama.com/)  
 
@@ -12,9 +12,7 @@ Visite o site para obter informações sobre o Ollama e acessar os links de inst
 ![image](https://github.com/user-attachments/assets/62d03fd5-c687-48b4-ab6b-7069ee3951a4)
 
 ---
-## ⚙️ **2. Instale o Ollama no Seu Sistema**  
-
-Escolha o comando correspondente ao seu sistema operacional.  
+## ⚙️ 2. Instale o Ollama no Seu Sistema 
 
 ### **Para Linux:**  
 Execute o seguinte comando no terminal:  
@@ -22,15 +20,12 @@ Execute o seguinte comando no terminal:
 curl -fsSL https://ollama.com/install.sh | sh
 ```  
 
-![image](https://github.com/user-attachments/assets/86414212-13d9-47f8-9cdf-f7ee56b511e4)
-
 ### **Para Windows/MacOS:**  
 Baixe o instalador diretamente do site oficial e siga as instruções.  
 
 ---
-## ✅ **3. Verifique a Instalação**  
+## ✅ 3. Verifique a Instalação
 
-Após a instalação, confirme se o Ollama foi instalado corretamente executando:  
 ```shell
 ollama
 ```  
@@ -80,6 +75,6 @@ ollama pull deepseek-r1:1.5b
 
 ---
 
-## 🎯 **6. Próximos Passos - VSCode e Python**  
+## 🎯 6. Próximos Passos - VSCode e Python  
 
 Nos próximos tutoriais, veremos como integrar o Ollama ao **VSCode** e usá-lo com **Python** para criar aplicações com IA.  
