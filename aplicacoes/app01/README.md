@@ -151,7 +151,7 @@ with st.chat_message("ai"):
 - Exibe a resposta do modelo como uma mensagem no chat.
 
 ---
-### 🔠10️⃣ Salvando a resposta no histórico
+### 1️⃣0️⃣ Salvando a resposta no histórico
 
 ```python
 st.session_state["chat_history"] += [AIMessage(ai_message)]
