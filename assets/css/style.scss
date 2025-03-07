@@ -3,9 +3,15 @@
 
 @import "{{ site.theme }}";
 
-/* Define a cor padrão do texto para preto */
-body, p, li, td, th, a {
+/* Define a cor padrão do texto para preto (menos links) */
+body, p, li, td, th {
     color: #000 !important;
+}
+
+/* Links em azul para destaque */
+a {
+    text-decoration: underline;
+    color: #0077cc !important;  /* Azul típico da web */
 }
 
 /* Estiliza as tabelas para ficarem mais visíveis */
@@ -37,10 +43,4 @@ td {
 table {
     border-radius: 5px;
     overflow: hidden;
-}
-
-/* Garante que links continuem visíveis */
-a {
-    text-decoration: underline;
-    color: #000;
 }
