@@ -1,6 +1,6 @@
 # 🍪 Receitas IA
 
-> Olá! Este é o seu livro de Receitas Open-Source, sobre diferentes tecnologias de **Inteligência Artificial**.
+- Olá! Este é o seu livro de Receitas Open-Source, sobre diferentes tecnologias de **Inteligência Artificial**.
 
 ---
 ## 📔 Sumário
