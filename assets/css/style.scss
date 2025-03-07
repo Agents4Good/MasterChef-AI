@@ -3,6 +3,44 @@
 
 @import "{{ site.theme }}";
 
-// O código .sccs não está funcionando no tema architect... Não muda nada e já tentei várias coisas
-// link útil: https://github.com/pages-themes/architect
-// nos outros temas, funcionam as mudanças. Mas são horríveis, não são responsivos.
+/* Define a cor padrão do texto para preto */
+body, p, li, td, th, a {
+    color: #000 !important;
+}
+
+/* Estiliza as tabelas para ficarem mais visíveis */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+}
+
+/* Adiciona bordas e espaçamento */
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* Fundo e texto do cabeçalho da tabela */
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Fundo e texto das células da tabela */
+td {
+    background-color: #fff;
+}
+
+/* Opcional: bordas arredondadas */
+table {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Garante que links continuem visíveis */
+a {
+    text-decoration: underline;
+    color: #000;
+}
