@@ -3,44 +3,62 @@
 
 @import "{{ site.theme }}";
 
-/* Define a cor padrão do texto para preto (menos links) */
+/* Texto padrão preto */
 body, p, li, td, th {
     color: #000 !important;
 }
 
-/* Links em azul para destaque */
+/* Links normais em azul */
 a {
     text-decoration: underline;
-    color: #0077cc !important;  /* Azul típico da web */
+    color: #0077cc !important;
 }
 
-/* Estiliza as tabelas para ficarem mais visíveis */
+/* Personaliza especificamente o link do botão do GitHub */
+a[href*="github.com"] {
+    color: #ffffff !important;  /* Branco no link do banner do GitHub */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo da tabela com fundo salmão claro */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 16px 0;
-}
-
-/* Adiciona bordas e espaçamento */
-table, th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
-}
-
-/* Fundo e texto do cabeçalho da tabela */
-th {
-    background-color: #f0f0f0;
-    font-weight: bold;
-    text-align: left;
-}
-
-/* Fundo e texto das células da tabela */
-td {
-    background-color: #fff;
-}
-
-/* Opcional: bordas arredondadas */
-table {
     border-radius: 5px;
     overflow: hidden;
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #ffcccb; /* Salmão claro */
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    color: #5a3e2b; /* Um marrom escuro para contraste */
+}
+
+/* Células da tabela */
+td {
+    background-color: #ffe4e1; /* Rosa claro */
+    padding: 8px;
+    color: #333; /* Texto escuro para contraste */
+}
+
+/* Borda sutil */
+table, th, td {
+    border: 1px solid #ffb6b9;
+}
+
+/* Alterna cor de fundo para linhas ímpares */
+tr:nth-child(odd) td {
+    background-color: #ffd5d5;
+}
+
+/* Ajuste para links dentro da tabela */
+td a {
+    color: #0077cc !important;
+    font-weight: bold;
+    text-decoration: underline;
 }
