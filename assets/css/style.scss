@@ -14,14 +14,27 @@ a {
     color: #0077cc !important;
 }
 
-/* Personaliza especificamente o link do botão do GitHub */
-a[href*="github.com"] {
-    color: #ffffff !important;  /* Branco no link do banner do GitHub */
+/* Links dentro da tabela */
+td a {
+    color: #0077cc !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Links na sidebar */
+.sidebar a {
+    color: #0077cc !important;
+    text-decoration: underline;
+}
+
+/* Links no banner "View project on GitHub" */
+.github-fork-ribbon a {
+    color: #ffffff !important; /* branco para ficar visível no banner azul */
     text-decoration: none;
     font-weight: bold;
 }
 
-/* Estilo da tabela com fundo salmão claro */
+/* Tabela com fundo salmão claro */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -30,23 +43,20 @@ table {
     overflow: hidden;
 }
 
-/* Cabeçalho da tabela */
 th {
     background-color: #ffcccb; /* Salmão claro */
     font-weight: bold;
     text-align: left;
     padding: 10px;
-    color: #5a3e2b; /* Um marrom escuro para contraste */
+    color: #5a3e2b; /* Marrom escuro */
 }
 
-/* Células da tabela */
 td {
     background-color: #ffe4e1; /* Rosa claro */
     padding: 8px;
-    color: #333; /* Texto escuro para contraste */
+    color: #333;
 }
 
-/* Borda sutil */
 table, th, td {
     border: 1px solid #ffb6b9;
 }
@@ -54,11 +64,4 @@ table, th, td {
 /* Alterna cor de fundo para linhas ímpares */
 tr:nth-child(odd) td {
     background-color: #ffd5d5;
-}
-
-/* Ajuste para links dentro da tabela */
-td a {
-    color: #0077cc !important;
-    font-weight: bold;
-    text-decoration: underline;
 }
