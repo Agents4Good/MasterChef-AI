@@ -29,9 +29,15 @@ td a {
 
 /* Links no banner "View project on GitHub" */
 .github-fork-ribbon a {
-    color: #ffffff !important; /* branco para ficar visível no banner azul */
+    color: #ffffff !important; /* branco */
     text-decoration: none;
     font-weight: bold;
+}
+
+/* Cor do banner estilo Kunumi */
+.github-fork-ribbon {
+    background-color: #ff4b3e !important; /* Kunumi vermelho */
+    color: #ffffff !important;
 }
 
 /* Tabela com fundo salmão claro */
