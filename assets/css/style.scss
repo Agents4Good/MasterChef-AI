@@ -134,3 +134,11 @@ code {
   color: #0073e6; // Azul padrão do GitHub
   font-weight: bold;
 }
+
+/* Estiliza as linhas horizontais */
+.hr {
+    border: 0;
+    height: 1px;
+    background-color: #cce7ff; /* Azul claro */
+    margin: 20px 0; /* Ajusta o espaçamento ao redor da linha */
+}
