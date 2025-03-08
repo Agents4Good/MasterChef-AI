@@ -11,8 +11,6 @@ Teste o DeepSeek diretamente pelo terminal com o seguinte comando:
 ollama run deepseek-r1:1.5b
 ```
 
-![image](https://github.com/user-attachments/assets/52b0f43e-5b31-4ab2-bd29-6fe6cd7c24e7)
-
 ---
 ## 🔍 Informações do Modelo
 
@@ -20,8 +18,6 @@ Visualize informações detalhadas do modelo utilizando o comando:
 ```shell
 /show info
 ```
-
-![image](https://github.com/user-attachments/assets/cb76d0a8-d45b-4d2f-b7fc-8049900a9ef6)
 
 ---
 ## 🛠 Configurando um Ambiente Virtual
