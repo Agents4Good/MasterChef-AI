@@ -62,7 +62,7 @@ if "chat_history" not in st.session_state:
     ]
 ```
 
-- Armazena o histórico de mensagens no `session_state`, começando com uma mensagem inicial.
+- Armazena o histórico de mensagens no *session_state*, começando com uma mensagem inicial.
 
 ---
 ### Exibindo o histórico de mensagens
@@ -167,19 +167,5 @@ Para rodar a aplicação:
 ```bash
 streamlit run app.py
 ```
-
----
-## Resumo visual
-
-| Etapa                   | Código                          |
-|-------------------|--------------------|
-| Configurar página | `st.set_page_config` e `st.header` |
-| Histórico inicial   | `st.session_state` |
-| Mostrar histórico   | `for history in chat_history` |
-| Capturar input        | `st.chat_input()` |
-| Adicionar histórico  | `chat_history += [...]` |
-| Gerar resposta         | `llm.stream()` |
-| Exibir resposta         | `st.write_stream()` |
-| Salvar resposta       | `chat_history += [...]` |
 
 ---
