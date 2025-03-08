@@ -56,21 +56,21 @@ table {
 }
 
 th {
-    background-color: #5499c7;
+    background-color: #ffcccb; /* Salmão claro */
     font-weight: bold;
     text-align: left;
     padding: 10px;
-    color: #7fb3d5;
+    color: #5a3e2b; /* Marrom escuro */
 }
 
 td {
-    background-color: #5499c7; /* Rosa claro */
+    background-color: #ffe4e1; /* Rosa claro */
     padding: 8px;
-    color: #5499c7;
+    color: #333;
 }
 
 table, th, td {
-    border: 1px solid #154360;
+    border: 1px solid #ffb6b9;
 }
 
 /* Alterna cor de fundo para linhas ímpares */
