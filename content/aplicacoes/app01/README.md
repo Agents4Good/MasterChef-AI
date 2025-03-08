@@ -1,14 +1,14 @@
 # WebDoctor 
 
 ---
-## 🟣 Contextualização
+## Contextualização
 
 Hoje, vamos sair do terminal e criar nossa primeira aplicação web, usando **Streamlit**.
 
 Essa aplicação será um **Chat Médico**, onde o usuário informa sintomas e recebe uma orientação inicial de um assistente médico simulado pelo modelo de linguagem.
 
 ---
-## 🟣 Objetivo
+## Objetivo
 
 O objetivo é criar uma interface simples de chat, onde:
 - O usuário escreve seus sintomas.
@@ -16,12 +16,12 @@ O objetivo é criar uma interface simples de chat, onde:
 - As mensagens são exibidas em formato de chat, com histórico, igual em aplicativos reais de conversa.
 
 ---
-## 🟣 Exemplo
+## Exemplo
 
 ![image](https://github.com/user-attachments/assets/7af20c68-8694-44a2-8e6d-01aa294b6e06)
 
 ---
-## 🟣 Instalando as Dependências
+## Instalando as Dependências
 
 **Nota:** Lembre de usar o ambiente virtual ativo, .venv
 
@@ -41,9 +41,9 @@ pip install langchain-core
 ```
 
 ---
-## 🟣 Passo a passo do código
+## Passo a passo do código
 
-### 1️⃣ Configuração inicial da página Streamlit
+### Configuração inicial da página Streamlit
 
 ```python
 st.set_page_config(page_title="Chat WebDoctor")
@@ -53,7 +53,7 @@ st.header("Chat WebDoctor")
 - Configura a página com título e cabeçalho personalizados.
 
 ---
-### 2️⃣ Configurando o histórico de chat
+### Configurando o histórico de chat
 
 ```python
 if "chat_history" not in st.session_state:
@@ -65,7 +65,7 @@ if "chat_history" not in st.session_state:
 - Armazena o histórico de mensagens no `session_state`, começando com uma mensagem inicial.
 
 ---
-### 3️⃣ Exibindo o histórico de mensagens
+### Exibindo o histórico de mensagens
 
 ```python
 chat_history = st.session_state["chat_history"]
@@ -80,7 +80,7 @@ for history in chat_history:
 - Mostra as mensagens anteriores no formato de chat (IA e usuário).
 
 ---
-### 4️⃣ Capturando a mensagem do usuário
+### Capturando a mensagem do usuário
 
 ```python
 sintomas = st.chat_input("Aguardando sua resposta...")
@@ -89,7 +89,7 @@ sintomas = st.chat_input("Aguardando sua resposta...")
 - Input para o usuário digitar seus sintomas.
 
 ---
-### 5️⃣ Adicionando a mensagem do usuário ao histórico
+### Adicionando a mensagem do usuário ao histórico
 
 ```python
 if sintomas:
@@ -100,7 +100,7 @@ if sintomas:
 - Adiciona a mensagem do usuário ao histórico e exibe no chat.
 
 ---
-### 6️⃣ Montando o prompt (PromptWebDoctor)
+### Montando o prompt (PromptWebDoctor)
 
 ```python
 prompt = PromptWebDoctor.prompt_inicial(sintomas)
@@ -123,7 +123,7 @@ class PromptWebDoctor:
 ```
 
 ---
-### 7️⃣ Inicializando o modelo ChatOllama
+### Inicializando o modelo ChatOllama
 
 ```python
 llm = ChatOllama(model="llama3.2:1b", temperature=0.7)
@@ -132,7 +132,7 @@ llm = ChatOllama(model="llama3.2:1b", temperature=0.7)
 - Configura o modelo a ser usado e sua temperatura.
 
 ---
-### 8️⃣ Gerando resposta com stream
+### Gerando resposta com stream
 
 ```python
 output = llm.stream(prompt)
@@ -141,7 +141,7 @@ output = llm.stream(prompt)
 - A resposta é gerada e transmitida em tempo real.
 
 ---
-### 9️⃣ Exibindo a resposta da IA
+### Exibindo a resposta da IA
 
 ```python
 with st.chat_message("ai"):
@@ -151,7 +151,7 @@ with st.chat_message("ai"):
 - Exibe a resposta do modelo como uma mensagem no chat.
 
 ---
-### 1️⃣0️⃣ Salvando a resposta no histórico
+### Salvando a resposta no histórico
 
 ```python
 st.session_state["chat_history"] += [AIMessage(ai_message)]
@@ -160,7 +160,7 @@ st.session_state["chat_history"] += [AIMessage(ai_message)]
 - Adiciona a resposta da IA no histórico.
 
 ---
-## 🟣 Conclusão e Demonstração
+## Conclusão e Demonstração
 
 Para rodar a aplicação:
 
@@ -169,7 +169,7 @@ streamlit run app.py
 ```
 
 ---
-## 🟣 Resumo visual
+## Resumo visual
 
 | Etapa                   | Código                          |
 |-------------------|--------------------|
