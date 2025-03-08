@@ -31,8 +31,6 @@ ollama
 ```  
 Se tudo estiver certo, o terminal exibirá informações sobre o Ollama.  
 
-![image](https://github.com/user-attachments/assets/5da117e5-6e5b-40ac-ba2a-96f51023254e)
-
 ---
 ## 🚀 **4. Executando um Modelo no Ollama**  
 
@@ -46,8 +44,6 @@ Exemplo:
 ollama run deepseek-r1:1.5b
 ```  
 
-![image](https://github.com/user-attachments/assets/6a29fa20-7024-47b4-8d28-d51d937c88b7)
-
 **Observação:** Se o modelo ainda não estiver instalado, o Ollama o baixará automaticamente antes de executá-lo.  
 
 ---
@@ -60,8 +56,6 @@ Aqui estão alguns comandos úteis para gerenciar modelos no Ollama:
 ollama list
 ```  
 
-![image](https://github.com/user-attachments/assets/e181474e-5734-44ce-b976-e35832e5557e)
-
 **Baixar um Modelo Específico**  
 ```shell
 ollama pull <modelo>
@@ -71,10 +65,7 @@ O comando `pull` faz o download manual de um modelo antes do uso. Exemplo:
 ollama pull deepseek-r1:1.5b
 ```  
 
-![image](https://github.com/user-attachments/assets/e88fff31-5a8f-4d4c-aea2-7dd43d54a293)
-
 ---
-
 ## 🎯 6. Próximos Passos - VSCode e Python  
 
 Nos próximos tutoriais, veremos como integrar o Ollama ao **VSCode** e usá-lo com **Python** para criar aplicações com IA.  
