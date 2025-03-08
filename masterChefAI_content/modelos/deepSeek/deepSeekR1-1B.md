@@ -1,7 +1,7 @@
 
 # 🧠 DeepSeek-R1 1.5B
 
-**Nota:** Antes de começar, certifique-se de que já instalou o Ollama seguindo este guia: [Ollama - Instalação](https://github.com/Agents4Good/CozinhaLLM/blob/main/ollama/install.md)
+**Nota:** Antes de começar, certifique-se de que já instalou o Ollama seguindo este guia: [Ollama - Instalação](https://github.com/Agents4Good/CozinhaLLM/blob/main/masterChefAI_content/ollama/install.md)
 
 ---
 ## 🚀 Executando o DeepSeek no Ollama
