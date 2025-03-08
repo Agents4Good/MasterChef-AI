@@ -14,7 +14,7 @@
 ---
 ## 🤖 Modelos
 
-- Pré-Requisito: [Ollama](./masterChefAI_content/ollama/install.md)
+- Pré-Requisito: [Ollama](./content/ollama/install.md)
 - [DeepSeek-R1 1.5B](./content/modelos/deepSeek/deepSeekR1-1B.md)
 
 ---
