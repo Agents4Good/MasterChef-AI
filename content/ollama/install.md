@@ -60,7 +60,7 @@ ollama list
 ```shell
 ollama pull <modelo>
 ```  
-O comando `pull` faz o download manual de um modelo antes do uso. Exemplo:  
+O comando *pull* faz o download manual de um modelo antes do uso. Exemplo:  
 ```shell
 ollama pull deepseek-r1:1.5b
 ```  
