@@ -42,7 +42,7 @@ cd my-project
 python -m venv venv
 ```
 
-**Venv:** O comando acima irá criar um diretório `venv`, que contém tudo que o ambiente virtual precisa.
+**Venv:** O comando acima irá criar um diretório *venv*, que contém tudo que o ambiente virtual precisa.
 
 ### **Ative o ambiente virtual**
 
@@ -99,12 +99,10 @@ response: ChatResponse = chat(model='deepseek-r1:1.5b', messages=[
   },
 ])
 
-print(response['message']['content'])
-# Ou acesse diretamente os campos da resposta
 print(response.message.content)
 ```
 
-**Nota:** Caso enfrente erros ao acessar a biblioteca `ollama`, verifique se o ambiente virtual está ativo.
+**Nota:** Caso enfrente erros ao acessar a biblioteca *ollama*, verifique se o ambiente virtual está ativo.
 
 ---
 
