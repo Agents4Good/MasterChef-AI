@@ -1,10 +1,10 @@
 
-# 🧠 DeepSeek-R1 1.5B
+# DeepSeek-R1 1.5B
 
 **Nota:** Antes de começar, certifique-se de que já instalou o Ollama seguindo este guia: [Ollama - Instalação](https://github.com/Agents4Good/CozinhaLLM/blob/main/content/ollama/install.md)
 
 ---
-## 🚀 Executando o DeepSeek no Ollama
+## Executando o DeepSeek no Ollama
 
 Teste o DeepSeek diretamente pelo terminal com o seguinte comando:
 ```shell
@@ -12,7 +12,7 @@ ollama run deepseek-r1:1.5b
 ```
 
 ---
-## 🔍 Informações do Modelo
+## Informações do Modelo
 
 Visualize informações detalhadas do modelo utilizando o comando:
 ```shell
@@ -20,16 +20,16 @@ Visualize informações detalhadas do modelo utilizando o comando:
 ```
 
 ---
-## 🛠 Configurando um Ambiente Virtual
+## Configurando um Ambiente Virtual
 
 Para utilizar o modelo localmente em um editor de código, como o **VSCode**, crie um ambiente virtual Python.
 
-### **1️⃣ Instale o Virtualenv**
+### **Instale o Virtualenv**
 ```shell
 pip install virtualenv
 ```
 
-### **2️⃣ Crie um diretório para o projeto e acesse-o**
+### **Crie um diretório para o projeto e acesse-o**
 
 Suponha que eu criei o diretório: "my-project"
 
@@ -37,14 +37,14 @@ Suponha que eu criei o diretório: "my-project"
 cd my-project
 ```
 
-### **3️⃣ Crie o ambiente virtual**
+### **Crie o ambiente virtual**
 ```shell
 python -m venv venv
 ```
 
 **Venv:** O comando acima irá criar um diretório `venv`, que contém tudo que o ambiente virtual precisa.
 
-### **4️⃣ Ative o ambiente virtual**
+### **Ative o ambiente virtual**
 
 🔹 **Windows:**
 ```shell
@@ -56,7 +56,7 @@ venv\Scriptsctivate
 source venv/bin/activate
 ```
 
-### **5️⃣ Desativando o ambiente virtual**
+### **Desativando o ambiente virtual**
 ```shell
 deactivate
 ```
@@ -69,7 +69,7 @@ Ficou com dúvidas sobre o ambiente virtual? Acesse os links a seguir:<br>
 
 ---
 
-## 📦 Instalando a Biblioteca Ollama
+## Instalando a Biblioteca Ollama
 
 Com o ambiente virtual ativado, instale a biblioteca Ollama:
 ```shell
@@ -78,7 +78,7 @@ pip install ollama
 
 ---
 
-## 💻 Configuração no VSCode
+## Configuração no VSCode
 
 Abra o diretório do seu projeto no **VSCode** e certifique-se de que está usando o ambiente virtual correto.
 
@@ -86,7 +86,7 @@ Abra o diretório do seu projeto no **VSCode** e certifique-se de que está usan
 
 ---
 
-## 📝 Exemplo de Código em Python e Ollama
+## Exemplo de Código em Python e Ollama
 
 ```python
 from ollama import chat
@@ -108,7 +108,7 @@ print(response.message.content)
 
 ---
 
-## 🦜 LangChain
+## LangChain
 
 Para facilitar nossas vidas, existe um framework chamado **LangChain**, que potencializa nossas aplicações de IA.
 
