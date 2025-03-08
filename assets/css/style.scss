@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+.button {
+  color: white !important;
+}
+
 /* Texto padrão preto */
 body, p, li, td, th {
     color: #000 !important;
