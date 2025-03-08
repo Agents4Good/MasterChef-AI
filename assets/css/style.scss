@@ -4,6 +4,7 @@
 @import "{{ site.theme }}";
 
 .button {
+  border-radius: 5px;
   background-color: #042d46;
   color: white !important;
   width: auto; /* Permite que o botão se ajuste ao conteúdo */
