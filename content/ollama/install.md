@@ -9,8 +9,6 @@
 
 Visite o site para obter informações sobre o Ollama e acessar os links de instalação.  
 
-![image](https://github.com/user-attachments/assets/62d03fd5-c687-48b4-ab6b-7069ee3951a4)
-
 ---
 ## Instale o Ollama no Seu Sistema 
 
