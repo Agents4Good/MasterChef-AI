@@ -15,17 +15,17 @@
 ## 🤖 Modelos
 
 - Pré-Requisito: [Ollama](./masterChefAI_content/ollama/install.md)
-- [DeepSeek-R1 1.5B](./masterChefAI_content/modelos/deepSeek/deepSeekR1-1B.md)
+- [DeepSeek-R1 1.5B](./content/modelos/deepSeek/deepSeekR1-1B.md)
 
 ---
 ## 🚀 Aplicações
 
-- [Chat Bot com LangChain, Ollama e StreamLit](./masterChefAI_content/aplicacoes/app01)
+- [Chat Bot com LangChain, Ollama e StreamLit](./content/aplicacoes/app01)
 
 ---
 ## 🔬 Destilação de Modelos
 
-- [Coleção de Artigos](./masterChefAI_content/destilacao/artigos.md)
+- [Coleção de Artigos](./content/destilacao/artigos.md)
 
 ---
 ## 🔧 Fine Tuning
