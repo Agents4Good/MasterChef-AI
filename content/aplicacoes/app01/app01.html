@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDoctor</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1, h2, h3 { color: #333; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        code { font-family: "Courier New", monospace; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <h1>WebDoctor</h1>
+    <hr>
+    
+    <h2>Contextualização</h2>
+    <p>Hoje, vamos sair do terminal e criar nossa primeira aplicação web, usando <strong>Streamlit</strong>.</p>
+    <p>Essa aplicação será um <strong>Chat Médico</strong>, onde o usuário informa sintomas e recebe uma orientação inicial de um assistente médico simulado pelo modelo de linguagem.</p>
+    
+    <h2>Objetivo</h2>
+    <p>O objetivo é criar uma interface simples de chat, onde:</p>
+    <ul>
+        <li>O usuário escreve seus sintomas.</li>
+        <li>O modelo de IA (executado via <strong>LangChain e ChatOllama</strong>) analisa os sintomas e dá um retorno.</li>
+        <li>As mensagens são exibidas em formato de chat, com histórico, igual em aplicativos reais de conversa.</li>
+    </ul>
+    
+    <h2>Exemplo</h2>
+    <img src="https://github.com/user-attachments/assets/7af20c68-8694-44a2-8e6d-01aa294b6e06" alt="Exemplo da aplicação">
+    
+    <h2>Instalando as Dependências</h2>
+    <p><strong>Nota:</strong> Lembre de usar o ambiente virtual ativo, .venv</p>
+    <pre><code>pip install streamlit</code></pre>
+    <pre><code>pip install langchain-ollama</code></pre>
+    <pre><code>pip install langchain-core</code></pre>
+    
+    <h2>Passo a passo do código</h2>
+    <h3>Configuração inicial da página Streamlit</h3>
+    <pre><code>st.set_page_config(page_title="Chat WebDoctor")
+st.header("Chat WebDoctor")</code></pre>
+    
+    <h3>Configurando o histórico de chat</h3>
+    <pre><code>if "chat_history" not in st.session_state:
+    st.session_state["chat_history"] = [
+        AIMessage("Bem-Vindo ao WebDoctor! Quais as suas queixas?")
+    ]</code></pre>
+    
+    <h3>Exibindo o histórico de mensagens</h3>
+    <pre><code>chat_history = st.session_state["chat_history"]
+
+for history in chat_history:
+    if isinstance(history, AIMessage):
+        st.chat_message("ai").write(history.content)
+    if isinstance(history, HumanMessage):
+        st.chat_message("human").write(history.content)</code></pre>
+    
+    <h3>Capturando a mensagem do usuário</h3>
+    <pre><code>sintomas = st.chat_input("Aguardando sua resposta...")</code></pre>
+    
+    <h3>Adicionando a mensagem do usuário ao histórico</h3>
+    <pre><code>if sintomas:
+    st.chat_message("user").write(sintomas)
+    st.session_state["chat_history"] += [HumanMessage(sintomas)]</code></pre>
+    
+    <h3>Montando o prompt (PromptWebDoctor)</h3>
+    <pre><code>prompt = PromptWebDoctor.prompt_inicial(sintomas)</code></pre>
+    
+    <h3>Inicializando o modelo ChatOllama</h3>
+    <pre><code>llm = ChatOllama(model="llama3.2:1b", temperature=0.7)</code></pre>
+    
+    <h3>Gerando resposta com stream</h3>
+    <pre><code>output = llm.stream(prompt)</code></pre>
+    
+    <h3>Exibindo a resposta da IA</h3>
+    <pre><code>with st.chat_message("ai"):
+    ai_message = st.write_stream(output)</code></pre>
+    
+    <h3>Salvando a resposta no histórico</h3>
+    <pre><code>st.session_state["chat_history"] += [AIMessage(ai_message)]</code></pre>
+    
+    <h2>Conclusão e Demonstração</h2>
+    <p>Para rodar a aplicação:</p>
+    <pre><code>streamlit run app.py</code></pre>
+</body>
+</html>
