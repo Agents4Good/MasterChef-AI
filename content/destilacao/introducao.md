@@ -1,7 +1,5 @@
 # **Destilação de LLMs**  
 
-> Como modelos menores podem superar os maiores?  
-
 ---
 ## **1. Introdução**  
 
