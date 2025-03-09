@@ -51,11 +51,11 @@ td a {
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #57c1f3; /* Azul claro suave, mais neutro */
+    background-color: #e0ffff; /* Azul claro suave, mais neutro */
 }
 
 th {
-    background-color: #000e96; /* Azul escuro para destacar o cabeçalho */
+    background-color: #008b8b/* Azul escuro para destacar o cabeçalho */
     color: white;
     padding: 10px;
 }
@@ -67,7 +67,7 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: #e6f2ff; /* Alternância suave nas linhas */
+    background-color: #b2ebf2; /* Alternância suave nas linhas */
 }
 
 tr:hover {
