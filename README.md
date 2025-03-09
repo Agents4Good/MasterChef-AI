@@ -9,7 +9,12 @@
 ## 🤖 Modelos
 
 - Pré-Requisito: [Ollama](./content/ollama/install.md)
-- [DeepSeek-R1 1.5B](./content/modelos/deepSeek/deepSeekR1-1B.md)
+
+| Nome               | Parâmetros | Fonte | Descrição |
+|--------------------|------------|-------|------------|
+| [DeepSeek-R1](./content/modelos/deepSeek/deepSeekR1-1B.md) | 1.5B | DeepSeek | Modelo compacto e eficiente para tarefas diversas de IA. |
+
+
 
 ---
 ## 🚀 Aplicações
