@@ -14,12 +14,12 @@
 |--------------------|------------|-------|------------|
 | [DeepSeek-R1](./content/modelos/deepSeek/deepSeekR1-1B.md) | 1.5B | DeepSeek | Modelo compacto e eficiente para tarefas diversas de IA. |
 
-
-
 ---
 ## 🚀 Aplicações
 
-- [Chat Bot com LangChain, Ollama e StreamLit](./content/aplicacoes/app01)
+| Nome | Descrição | Vídeo |
+|------|-----------|------|
+| [ChatBot WebDoctor](./content/aplicacoes/app01)| Aplicação de chatbot utilizando LangChain, Ollama e StreamLit. | [Versão em Vídeo](https://youtu.be/pQl9CYNqdPo) |
 
 ---
 ## 🔬 Destilação de Modelos
