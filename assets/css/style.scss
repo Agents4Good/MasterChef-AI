@@ -48,36 +48,34 @@ td a {
     color: #ffffff !important;
 }
 
-/* Tabela com fundo salmão claro */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 16px 0;
-    border-radius: 5px;
-    overflow: hidden;
+    background-color: #f0f8ff; /* Azul claro suave, mais neutro */
 }
 
 th {
-    background-color: #ffcccb; /* Salmão claro */
-    font-weight: bold;
-    text-align: left;
+    background-color: #005f99; /* Azul escuro para destacar o cabeçalho */
+    color: white;
     padding: 10px;
-    color: #5a3e2b; /* Marrom escuro */
 }
 
 td {
-    background-color: #ffe4e1; /* Rosa claro */
+    border: 1px solid #ddd;
     padding: 8px;
-    color: #333;
+    color: #333; /* Cor escura para facilitar a leitura */
+}
+
+tr:nth-child(even) {
+    background-color: #e6f2ff; /* Alternância suave nas linhas */
+}
+
+tr:hover {
+    background-color: #cce5ff; /* Efeito hover sutil */
 }
 
 table, th, td {
     border: 1px solid #ffb6b9;
-}
-
-/* Alterna cor de fundo para linhas ímpares */
-tr:nth-child(odd) td {
-    background-color: #ffd5d5;
 }
 
 /* Estiliza caixas de código (code blocks) */
