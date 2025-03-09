@@ -30,7 +30,35 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          {{ content }}
+          <div class="cards-container">
+            <div class="card">
+              <a href="/destilacao">
+                <h3>Destilação</h3>
+                <p>Redução de tamanho de modelos mantendo desempenho.</p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="/fine-tuning">
+                <h3>Fine-Tuning</h3>
+                <p>Especialize um modelo para uma tarefa específica.</p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="/prompt-engineering">
+                <h3>Prompt Engineering</h3>
+                <p>Criação de prompts eficazes para LLMs.</p>
+              </a>
+            </div>
+
+            <div class="card">
+              <a href="/avaliacao">
+                <h3>Avaliação</h3>
+                <p>Critérios para medir a qualidade dos modelos.</p>
+              </a>
+            </div>
+          </div>
         </section>
 
         <aside id="sidebar">
@@ -48,20 +76,18 @@
             <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
           {% endif %}
 
-         <!-- Lista de Contribuidores -->
-        <div id="contributors" style="border: 1px #e9e3eb; padding: 2px; border-radius: 6px;">
-          <h3>Contribuidores</h3>
-          <ul id="contributors-list"></ul>
-        </div>
-
+          <div id="contributors" style="border: 1px #e9e3eb; padding: 2px; border-radius: 6px;">
+            <h3>Contribuidores</h3>
+            <ul id="contributors-list"></ul>
+          </div>
         </aside>
       </div>
     </div>
 
     <script>
       async function fetchContributors() {
-        const repoOwner = "Agents4Good"; // Substitua pelo nome da organização ou usuário
-        const repoName = "ReceitasIA";   // Substitua pelo nome do repositório
+        const repoOwner = "Agents4Good";
+        const repoName = "ReceitasIA";
 
         try {
           const response = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/contributors`);
@@ -84,6 +110,35 @@
     </script>
 
     <style>
+      .cards-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        text-align: center;
+        transition: transform 0.2s ease-in-out;
+      }
+      .card a {
+        text-decoration: none;
+        color: #042d46;
+        display: block;
+      }
+      .card h3 {
+        margin-bottom: 10px;
+      }
+      .card p {
+        font-size: 14px;
+        color: #555;
+      }
+      .card:hover {
+        transform: scale(1.05);
+      }
       #contributors {
         font-size: 14px;
         margin-top: 20px;
