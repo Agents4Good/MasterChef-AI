@@ -1,9 +1,3 @@
-# 🍪 MasterChef AI
-
-- Olá! Este é o **MasterChef AI**!<br>
-- Aqui, combinamos o melhor da tecnologia com o sabor e a criatividade, trazendo receitas inovadoras, modelos de IA e aplicações práticas 
-
----
 ## 📔 Sumário
 
 - **Modelos**: Cardápio de modelos com receitas disponíveis.
