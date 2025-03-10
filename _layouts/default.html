@@ -24,6 +24,10 @@
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
         <span class="repo-owner">Desenvolvido por <strong>Agents4Good</strong></span>
+
+        {% if site.github.is_project_page %}
+          <a href="{{ site.github.repository_url }}" class="button"><small>Acesse nosso</small>GitHub</a>
+        {% endif %}
       </div>
     </header>
 
@@ -57,7 +61,7 @@
 
     <!-- Barra de rodapé -->
    <footer style="position: fixed; bottom: 0; width: 100%; background-color: #5798df; background-color: rgba(87, 152, 223, 0.8); color: white; text-align: center; padding: 10px;">
-      Produzido por <a href="https://github.com/Agents4Good" target="_blank" style="color: white; text-decoration: none; font-weight: bold;">Agents4Good</a>
+      Produzido por <a href="https://github.com/Agents4Good" target="_blank" style="color: white; text-decoration: none; font-weight: bold;"><strong>Agents4Good</strong></a>
    </footer>
     
     <script>
