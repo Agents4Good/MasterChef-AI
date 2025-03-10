@@ -44,9 +44,6 @@
               .tar.gz file
             </a>
           {% endif %}
-          {% if site.github.is_project_page %}
-            <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
-          {% endif %}
 
          <!-- Lista de Contribuidores -->
         <div id="contributors" style="border: 1px #e9e3eb; padding: 2px; border-radius: 6px;">
@@ -59,10 +56,10 @@
     </div>
 
     <!-- Barra de rodapé -->
-    <footer style="position: fixed; bottom: 0; width: 100%; background-color: #5798df; background-color: rgba(87, 152, 223, 0.8); color: white; text-align: center; padding: 10px;">
-      Produzido por <a href="https://github.com/Agents4Good" target="_blank" style="color: white; text-decoration: none; font-weight: bold;">Agents4Good</a>
-    </footer>
-
+   <footer style="position: fixed; bottom: 0; width: 100%; background-color: #5798df; background-color: rgba(87, 152, 223, 0.8); color: white; text-align: center; padding: 10px;">
+      Produzido por <a href="https://github.com/Agents4Good" target="_blank" style="color: #0051ff; text-decoration: none; font-weight: bold;">Agents4Good</a>
+   </footer>
+    
     <script>
       async function fetchContributors() {
         const repoOwner = "Agents4Good"; // Substitua pelo nome da organização ou usuário
