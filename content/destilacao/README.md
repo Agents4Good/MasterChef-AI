@@ -1,5 +1,7 @@
 ## Destilação
 
+> Confira os artigos sobre Destilação: [Artigos - Destilação](../artigos)
+
 | Tópico | Descrição | Versão em Vídeo |
 |-----------|-----------|-----------------|
-| **[O que é?](./introducao.md)**  | Introdução à Destilação | --- |
+| Em construção | --- | --- |
