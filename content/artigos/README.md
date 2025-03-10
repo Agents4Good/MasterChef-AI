@@ -7,4 +7,6 @@
 | **Enhancing Knowledge Distillation for LLMs with Response-Priming Prompting** | [ArXiv](https://arxiv.org/abs/2412.17846) | Apresenta uma abordagem que aprimora a destilação de conhecimento usando técnicas de prompting baseadas em resposta. |
 | **Small LLMs Are Weak Tool Learners: A Multi-LLM Agent** | [ArXiv](https://arxiv.org/abs/2401.07324) | Discute a dificuldade de LLMs pequenos em aprender a usar ferramentas e propõe um agente multi-LLM para mitigar essa limitação. |
 | **Toolformer: Language Models Can Teach Themselves to Use Tools** | [ArXiv](https://arxiv.org/abs/2302.04761) | Introduz o conceito do Toolformer, um LLM que aprende a usar ferramentas de forma autônoma. |
+| **Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge** | [ArXiv](https://arxiv.org/html/2407.19594v2) | O modelo avalia suas próprias respostas e a qualidade dessas avaliações, refinando suas habilidades de julgamento de forma autônoma. |
+
 
