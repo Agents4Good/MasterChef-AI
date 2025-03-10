@@ -1,5 +1,6 @@
 ## Lista de Artigos para Leitura
 
+---
 #### Destilação
 | Título | Link | Descrição | Análises em Português |
 |--------|------|-----------| ----------------------|
