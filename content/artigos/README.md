@@ -1,5 +1,6 @@
 ## Lista de Artigos para Leitura
 
+#### Destilação
 | Título | Link | Descrição | Análises em Português |
 |--------|------|-----------| ----------------------|
 | **Towards Cross-Tokenizer Distillation: the Universal Logit Distillation Loss for LLMs** | [PDF](https://arxiv.org/pdf/2402.12030) | Propõe uma técnica de destilação universal para LLMs que permite transferir conhecimento entre diferentes tokenizadores. | [Análise](./analises/SurveyKD.md) |
@@ -9,4 +10,6 @@
 | **Toolformer: Language Models Can Teach Themselves to Use Tools** | [ArXiv](https://arxiv.org/abs/2302.04761) | Introduz o conceito do Toolformer, um LLM que aprende a usar ferramentas de forma autônoma. | Em construção |
 | **Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge** | [ArXiv](https://arxiv.org/html/2407.19594v2) | O modelo avalia suas próprias respostas e a qualidade dessas avaliações, refinando suas habilidades de julgamento de forma autônoma. | Em construção |
 
+---
+#### Fine-Tunning
 
