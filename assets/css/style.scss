@@ -154,3 +154,14 @@ code {
     margin-top: 10px;
     display: block;
 }
+
+footer a {
+  color: white; // Exemplo: tom de vermelho
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    color: orange; // Cor ao passar o mouse
+    text-decoration: underline;
+  }
+}
