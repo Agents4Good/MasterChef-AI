@@ -4,7 +4,7 @@
 
 #### Destilação
 
-| Título | Link | Descrição | Análises em Português |
+| **Título** | **Link** | **Descrição** | **Análises em Português** |
 |--------|------|-----------|-----------------------|
 | **Towards Cross-Tokenizer Distillation: the Universal Logit Distillation Loss for LLMs** | [PDF](https://arxiv.org/pdf/2402.12030) | Propõe uma técnica de destilação universal para LLMs que permite transferir conhecimento entre diferentes tokenizadores. | [Análise](./analises/SurveyKD.md) |
 | **A Survey on Knowledge Distillation of Large Language Models** | [PDF](https://arxiv.org/pdf/2402.13116) | Revisão abrangente sobre técnicas de destilação de conhecimento para modelos de linguagem de grande porte. | Em construção |
