@@ -1,6 +1,6 @@
 ## Sumário
 
-| Categoria       | Descrição                                                              | Link                                                    |
+| **Categoria**       | **Descrição**                                                              | **Link**                                                    |
 |-----------------|------------------------------------------------------------------------|---------------------------------------------------------|
 | **Modelos**         | Lista de modelos de linguagem e como utilizá-los           | [Ver Modelos](./content/modelos/README.md)                        |
 | **Aplicações**      | Aplicações construídas utilizando os modelos e diversos frameworks   | [Ver Aplicações](./content/aplicacoes/README.md)                  |
