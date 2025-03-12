@@ -47,6 +47,10 @@
             </a>
           {% endif %}
 
+        {% if site.github.is_project_page %}
+            <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
+        {% endif %}
+          
          <!-- Lista de Contribuidores -->
         <div id="contributors" style="border: 1px #e9e3eb; padding: 2px; border-radius: 6px;">
           <h3>Contribuidores</h3>
