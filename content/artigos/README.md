@@ -7,6 +7,7 @@
 | **Título** | **Link** | **Descrição** | **Análises em Português** |
 |--------|------|-----------|-----------------------|
 | **A Survey on Knowledge Distillation of Large Language Models** | [PDF](https://arxiv.org/pdf/2402.13116) | Revisão abrangente sobre técnicas de destilação de conhecimento para modelos de linguagem de grande porte. | [Análise](./analises/SurveyKD.md) |
+| **Knowledge Distillation: A Survey** | [PDF](https://arxiv.org/pdf/2006.05525) | Um dos primeiros artigos sobre Destilação de Conhecimento | Em construção |
 | **Towards Cross-Tokenizer Distillation: the Universal Logit Distillation Loss for LLMs** | [PDF](https://arxiv.org/pdf/2402.12030) | Propõe uma técnica de destilação universal para LLMs que permite transferir conhecimento entre diferentes tokenizadores. | Em construção |
 | **Enhancing Knowledge Distillation for LLMs with Response-Priming Prompting** | [ArXiv](https://arxiv.org/abs/2412.17846) | Apresenta uma abordagem que aprimora a destilação de conhecimento usando técnicas de prompting baseadas em resposta. | Em construção |
 | **DISTILLM: Towards Streamlined Distillation for Large Language Models** | [ArXiv](https://arxiv.org/pdf/2402.03898) | Apresenta uma abordagem otimizada para destilação de LLMs, reduzindo o custo computacional sem comprometer o desempenho. | Em construção |
