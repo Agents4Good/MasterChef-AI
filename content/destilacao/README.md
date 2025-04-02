@@ -9,7 +9,7 @@
 | DistillBert | Destilação do modelo Bert | <a href="https://github.com/Agents4Good/MasterChef-AI/tree/main/content/destilacao/bert_distill" target="_blank">Código</a> | --- |
 
 ---
-## Artigos sobre Destilação
+## Artigos
 
 | **Título** | **Link** | **Descrição** | **Análises em Português** |
 |--------|------|-----------|-----------------------|
