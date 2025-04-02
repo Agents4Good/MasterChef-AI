@@ -1,3 +1,6 @@
+# Destilação de Conhecimento
+
+---
 ## Casos Práticos
 
 | **Tópico** | **Descrição** | **Código** | **Versão em Vídeo** |
