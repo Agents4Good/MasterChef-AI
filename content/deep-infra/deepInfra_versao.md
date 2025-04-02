@@ -63,7 +63,7 @@ get_completion("What is the capital of France?", "deepseek-ai/DeepSeek-R1-Turbo"
 
 # Estimando o Custo do Experimento
 
-1. Carregue um arquivo CSV chamado `data.csv` contendo colunas de entrada e saída.
+1. Carregue um arquivo CSV chamado **data.csv** contendo colunas de entrada e saída.
 2. Defina o preço por token do modelo escolhido ([Tabela de Preços](https://deepinfra.com/pricing)).
 3. Execute o código abaixo para obter uma estimativa do custo.
 
@@ -120,7 +120,7 @@ print(f"Total Output Tokens: {total_output_tokens}")
 print(f"Estimated Total Cost: {total_cost:.5f} $")
 ```
 
-```txt
+```python
 Total Input Tokens: 137
 Total Output Tokens: 348
 Estimated Total Cost: 0.00017 $
