@@ -7,4 +7,4 @@
 | **Destilação**      | Técnicas e recursos sobre como realizar a destilação de LLMs           | [Ver Destilação](./content/destilacao/README.md)                  |
 | **Fine Tuning**     | Guias e métodos para ajustar e aprimorar modelos de linguagem          | [Ver Fine Tuning](./content/finetuning/README.md)                |
 | **Artigos**         | Leituras recomendadas           | [Ver Artigos](./content/artigos/README.md)                        |
-
+| **Serviços De Infra**    | Serviços para rodar modelos na nuvem | [Ver Serviços](./content/deep-infra/README.md)

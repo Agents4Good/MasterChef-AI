@@ -4,4 +4,4 @@
 
 | **Tópico** | **Descrição** | **Versão em Vídeo** |
 |-----------|-----------|-----------------|
-| Em construção | --- | --- |
+| Destilação de Redes Neurais | Caso Prático de uma Destilação com Redes Neurais | --- |
