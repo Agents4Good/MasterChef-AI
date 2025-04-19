@@ -13,6 +13,7 @@
 
 | **Título** | **Link** | **Descrição** | **Análises em Português** |
 |--------|------|-----------|-----------------------|
+| Distilling the Knowledge in a Neural Network | [ArXiv](https://arxiv.org/abs/1503.02531) | Surge o conceito "Destilação de Conhecimento". | Em construção |
 | A Survey on Knowledge Distillation of Large Language Models | [PDF](https://arxiv.org/pdf/2402.13116) | Revisão abrangente sobre técnicas de destilação de conhecimento para modelos de linguagem de grande porte. | [Análise](../artigos/analises/SurveyKD.md) |
 | Towards Cross-Tokenizer Distillation: the Universal Logit Distillation Loss for LLMs | [PDF](https://arxiv.org/pdf/2402.12030) | Propõe uma técnica de destilação universal para LLMs que permite transferir conhecimento entre diferentes tokenizadores. | Em construção |
 | DISTILLM: Towards Streamlined Distillation for Large Language Models | [ArXiv](https://arxiv.org/pdf/2402.03898) | Apresenta uma abordagem otimizada para destilação de LLMs, reduzindo o custo computacional sem comprometer o desempenho. | Em construção |
