@@ -1,4 +1,4 @@
-# Inteligência Artificial - UFCG
+# Inteligência Artificial UFCG
 
 Este repositório contém resumos das aulas da disciplina de Inteligência Artificial, UFCG, que se baseiam no livro clássico **_Inteligência Artificial: Uma Abordagem Moderna_**, de **Stuart Russell** e **Peter Norvig** (3ª edição, 2013).
 
