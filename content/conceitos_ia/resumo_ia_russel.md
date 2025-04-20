@@ -1,70 +1,155 @@
-# Resumo - Inteligência Artificial: Uma Abordagem Moderna (Russell & Norvig)
+# Capítulo 1 – Introdução
 
-> **Nota:** Este resumo é baseado no livro *Inteligência Artificial: Uma Abordagem Moderna*, de Stuart Russell e Peter Norvig.  
-
----
-## Introdução
-
-Nós nos chamamos de *Homo sapiens* — o homem sábio — pois nossa inteligência é muito importante para nós. Por milhares de anos, tentamos entender como pensamos;
-isto é, como um mero punhado de matéria pode perceber, compreender, prever e manipular um mundo muito maior e mais complexo do que ele mesmo.
-
-O campo da **Inteligência Artificial (IA)** vai ainda mais longe: tenta não apenas compreender, mas também **construir entidades inteligentes**.
-
-> "The study of mental faculties through the use of computational models."  
-> — *Charniak and McDermott, 1985*
-
-A IA é um dos campos mais novos da ciência e da engenharia. O trabalho começou para valer logo após a Segunda Guerra Mundial, e o próprio nome foi cunhado em **1956**.
-
-Textos de engenharia aeronáutica não definem o objetivo de sua área como construir "máquinas que voam tão exatamente como pombos que podem enganar até mesmo outros pombos". Da mesma forma, IA não precisa imitar o ser humano em todos os aspectos.
+> Em que tentamos explicar por que consideramos a inteligência artificial um assunto digno de estudo e em que procuramos definir exatamente o que é a inteligência artificial…
 
 ---
-## O que é um Agente?
+## 1.1 O que é IA?
 
-Um **agente** é qualquer coisa que age. A palavra vem do latim *agere*, que significa “fazer”.
+A IA tenta compreender e construir entidades inteligentes. Há quatro formas principais de abordá-la:
 
-Embora todos os programas de computador façam algo, espera-se que os **agentes inteligentes** façam mais:
-
-- Percebam seu ambiente  
-- Operem autonomamente  
-- Persistam por um período prolongado  
-- Adaptem-se a mudanças  
-- Criem e busquem objetivos  
+|                         | **Pensar como humanos**                     | **Pensar racionalmente**                     |
+|-------------------------|---------------------------------------------|----------------------------------------------|
+| **Agir como humanos**   | Teste de Turing                             | Agente racional                              |
+| **Processo mental**     | Modelagem cognitiva                         | Leis do pensamento (lógica formal)           |
 
 ---
-## Disciplinas que Contribuíram para a IA
+### 1.1.1 Agindo como humanos – O Teste de Turing
 
-> A inteligência artificial é um campo interdisciplinar, que se apoia em diversas áreas do conhecimento. Veja abaixo algumas das questões centrais levantadas por essas disciplinas:
+Proposto por **Alan Turing (1950)**, avalia se um computador pode se passar por humano em uma conversa textual.
 
-### Filosofia
-- Regras formais podem ser usadas para obter conclusões válidas?
-- Como a mente (o intelecto) se desenvolve a partir de um cérebro físico?
-- De onde vem o conhecimento?
-- Como o conhecimento conduz à ação?
+Para passar no teste, o sistema deve possuir:
 
-### Matemática
-- Quais são as regras formais para obter conclusões válidas?
-- O que pode ser computado?
-- Como raciocinamos com informações incertas?
-
-### Economia
-- Como devemos tomar decisões para maximizar a recompensa?
-- Como devemos fazer isso quando outros não podem nos acompanhar?
-- Como devemos fazer isso quando a recompensa pode estar distante no futuro?
-
-### Neurociência
-- Como o cérebro processa informações?
-
-### Psicologia
-- Como os seres humanos e os animais pensam e agem?
-
-### Engenharia de Computadores
-- Como podemos construir um computador eficiente?
-
-### Teoria de Controle e Cibernética
-- Como os artefatos podem operar sob seu próprio controle?
-
-### Linguística
-- Como a linguagem se relaciona com o pensamento?
+- **Processamento de Linguagem Natural**
+- **Representação de Conhecimento**
+- **Raciocínio Automatizado**
+- **Aprendizado de Máquina**
+- (Para o *Teste de Turing Total*):
+  - **Visão Computacional**
+  - **Robótica**
 
 ---
-## História da IA
+### 1.1.2 Pensando como humanos – Modelagem Cognitiva
+
+- Baseada em reproduzir os processos mentais humanos.
+- Utiliza:
+  - Introspecção
+  - Psicologia experimental
+  - Neuroimagem funcional
+- Fortemente ligada à **Ciência Cognitiva**.
+- Exemplo: **Newell e Simon** criaram o **GPS (General Problem Solver)** e compararam os passos do programa com o pensamento humano.
+
+---
+### 1.1.3 Pensando racionalmente – Leis do pensamento
+
+- Origem na **lógica formal aristotélica**.
+- Desenvolvida com silogismos e lógica de primeira ordem.
+- Problemas enfrentados:
+  - Representar conhecimento incerto é difícil.
+  - Raciocínio lógico pode ser impraticável computacionalmente.
+
+---
+### 1.1.4 Agindo racionalmente – Agentes racionais
+
+- Agente racional: aquele que **faz a melhor ação possível** com base nas percepções e no conhecimento disponível.
+- Vantagens:
+  - Mais geral que a lógica pura.
+  - Possui fundamentação matemática sólida.
+- Limitações:
+  - Racionalidade perfeita é **computacionalmente inviável** em muitos contextos.
+  - **Racionalidade limitada** (bounded rationality) é uma alternativa prática.
+
+---
+## 1.3 História da Inteligência Artificial
+
+### **Antes de 1950 – Antecedentes da IA**
+
+- **Antiguidade**: Aristóteles formaliza silogismos, lógica como base do raciocínio.
+- **Século XVII**: Pascal e Leibniz desenvolvem calculadoras mecânicas.
+- **Século XIX**: Boole desenvolve a lógica booleana.
+- **1931**: **Kurt Gödel** demonstra limites da lógica formal (teorema da incompletude).
+- **1936**: **Alan Turing** define o modelo de computação universal.
+- **1943**: **McCulloch e Pitts** criam o primeiro modelo computacional de um neurônio.
+- **1949**: **Donald Hebb** propõe a hipótese de plasticidade sináptica (fundamento das redes neurais).
+- **1950**: **Turing publica** "Computing Machinery and Intelligence", propondo o **Teste de Turing**.
+
+---
+### **1956 – O nascimento oficial da IA**
+
+- **Dartmouth Conference**: ponto de partida formal da IA.
+  - Proposto por **John McCarthy**, **Marvin Minsky**, **Nathaniel Rochester** e **Claude Shannon**.
+  - McCarthy cunha o termo "**Inteligência Artificial**".
+- Objetivo: construir máquinas que simulassem a inteligência humana.
+
+---
+### **1950s–1960s – Primeiros programas e otimismo**
+
+- **Logic Theorist** (1955–56) – Newell & Simon: primeiro programa a provar teoremas matemáticos.
+- **GPS (General Problem Solver)** – simula raciocínio humano por metas.
+- Criação da linguagem **LISP** (1958) por **John McCarthy**, tornando-se padrão para IA por décadas.
+- Sistemas jogando damas, álgebra simbólica e resolução de problemas mostram promessas iniciais.
+
+---
+### **1970s – Primeiras decepções e o “Inverno da IA”**
+
+- Expectativas não são cumpridas.
+- Problemas com:
+  - Combinatorial explosion
+  - Limitações de hardware
+  - Falta de dados
+- Cortes de verbas em projetos governamentais nos EUA e Reino Unido.
+
+---
+### **1980s – Sistemas Especialistas**
+
+- IA volta à tona com **sistemas especialistas**:
+  - **MYCIN** (diagnóstico médico)
+  - **XCON** (configuração de computadores)
+- Utilizam bases de regras com conhecimento codificado por especialistas.
+- Limitações:
+  - Dificuldade de manutenção
+  - Fraca generalização
+  - Alto custo de aquisição de conhecimento
+
+---
+### **1990s – Aprendizado de Máquina e dados**
+
+- Surgimento de algoritmos mais robustos para:
+  - **Redes neurais**
+  - **Máquinas de vetores de suporte (SVM)**
+  - **Árvores de decisão**
+- Foco em **aprendizado supervisionado** e dados reais.
+- Crescimento da internet começa a fornecer grandes volumes de dados.
+
+---
+### **2000s–2010s – IA prática e ressurgimento definitivo**
+
+- Avanços em:
+  - **Processamento de linguagem natural**
+  - **Reconhecimento de fala e imagem**
+  - **Sistemas de recomendação**
+- Aplicações em:
+  - Web (Google, Amazon)
+  - Jogos (Deep Blue vence Kasparov em 1997; AlphaGo vence Lee Sedol em 2016)
+  - Robótica e carros autônomos (DARPA Challenge)
+
+---
+### **2010s–hoje – Era do Deep Learning**
+
+- **Redes neurais profundas (Deep Learning)** impulsionam o campo:
+  - Frameworks: TensorFlow, PyTorch
+  - Arquiteturas: CNNs, RNNs, Transformers
+- Grandes modelos de linguagem:
+  - BERT (Google), GPT (OpenAI), LLaMA (Meta), entre outros.
+- Crescimento do uso em áreas como:
+  - Medicina
+  - Direito
+  - Educação
+  - Criatividade (arte, música, código)
+
+---
+## 1.5 Resumo Final
+
+- A IA é o estudo de **agentes que percebem e agem no mundo**.
+- Existem várias maneiras de defini-la: baseadas em pensamento ou comportamento, e em humanos ou racionalidade.
+- O livro foca na **abordagem do agente racional** como unificadora e cientificamente sólida.
+- A história da IA mostra um campo com ciclos de **grande expectativa**, **desilusão** e **renascimento**, até atingir o estágio atual de aplicações concretas e impacto global.
