@@ -1,6 +1,6 @@
-# 📘 Resumos – Inteligência Artificial (Russell & Norvig)
+# 📘 Resumos – Inteligência Artificial - UFCG
 
-Este repositório contém resumos organizados por capítulo do livro clássico **_Inteligência Artificial: Uma Abordagem Moderna_**, de **Stuart Russell** e **Peter Norvig** (3ª edição, 2013).
+Este repositório contém resumos das aulas da disciplina de Inteligência Artificial, UFCG, que se baseiam no livro clássico **_Inteligência Artificial: Uma Abordagem Moderna_**, de **Stuart Russell** e **Peter Norvig** (3ª edição, 2013).
 
 ---
 ## 📚 Sumário dos Capítulos
