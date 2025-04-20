@@ -7,7 +7,7 @@ Este repositório contém resumos organizados por capítulo do livro clássico *
 
 | Capítulo | Título                                                                 |
 |----------|------------------------------------------------------------------------|
-| 1        | [Introdução e História da IA](russel_norvig/cap1.md)                                                |
+| 1        | [Introdução e História da IA](./cap1.md)                                                |
 | 2        | [Agentes Inteligentes](./cap2.md)                                       |
 | 3        | [Resolução de Problemas por Meio de Busca](./cap3.md)                 |
 | 4        | [Além da Busca Clássica](./cap4.md)                                    |
