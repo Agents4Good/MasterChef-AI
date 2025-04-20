@@ -1,4 +1,4 @@
-# Glossário de Inteligência Artificial
+# Glossário
 
 **Fonte Principal:** *Artificial Intelligence* — Stuart Russell & Peter Norvig<br>
 
