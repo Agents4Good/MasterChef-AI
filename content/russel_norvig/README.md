@@ -5,7 +5,7 @@ Este repositório contém resumos das aulas da disciplina de Inteligência Artif
 ---
 ## 📚 Sumário
 
-| Aula | Título                                                                 |
+| Aula | Conteúdo                                                                 |
 |----------|------------------------------------------------------------------------|
 | 1        | [Introdução e História da IA](./cap1.md)                                                |
 | 2        | [Agentes Inteligentes](./cap2.md)                                       |
