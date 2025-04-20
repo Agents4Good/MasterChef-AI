@@ -1,8 +1,5 @@
-# Glossário
+## Glossário
 
-**Fonte Principal:** *Artificial Intelligence* — Stuart Russell & Peter Norvig<br>
-
-**Organizado em ordem alfabética**
 
 | **Termo**       | **Significado**                                                                                                                                                                                                                              | **Trecho do Livro** |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|
@@ -25,3 +22,7 @@
 | **Retrieval-Augmented Generation (RAG)** | ...                                                                                                                                                                                                         | ...                 |
 | **Self Consistency** | ...                                                                                                                                                                                                                                    | ...                 |
 | **Self Reflection** | ...                                                                                                                                                                                                                                     | ...                 |
+
+**Fonte Principal:** *Artificial Intelligence* — Stuart Russell & Peter Norvig<br>
+
+**Organizado em ordem alfabética**
