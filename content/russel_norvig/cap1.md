@@ -1,4 +1,4 @@
-# Capítulo 1 – Introdução
+# Introdução
 
 > Em que tentamos explicar por que consideramos a inteligência artificial um assunto digno de estudo e em que procuramos definir exatamente o que é a inteligência artificial…
 
