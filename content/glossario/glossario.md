@@ -23,6 +23,6 @@
 | **Self Consistency** | ...                                                                                                                                                                                                                                    | ...                 |
 | **Self Reflection** | ...                                                                                                                                                                                                                                     | ...                 |
 
-**Fonte Principal:** *Artificial Intelligence* — Stuart Russell & Peter Norvig<br>
+*Fonte Principal:* *Artificial Intelligence* — Stuart Russell & Peter Norvig<br>
 
-**Organizado em ordem alfabética**
+*Organizado em ordem alfabética*
