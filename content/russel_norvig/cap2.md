@@ -1,7 +1,7 @@
 # Agentes Racionais
 
-Este capítulo introduz o conceito de **agentes** como entidades que percebem o ambiente e agem sobre ele.
-O foco está na construção de **agentes racionais**, aqueles que tomam decisões buscando maximizar o desempenho.
+> Este capítulo introduz o conceito de **agentes** como entidades que percebem o ambiente e agem sobre ele.
+> O foco está na construção de **agentes racionais**, aqueles que tomam decisões buscando maximizar o desempenho.
 
 ---
 ## 2.1 Agentes e Ambientes
