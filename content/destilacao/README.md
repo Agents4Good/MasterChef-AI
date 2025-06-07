@@ -8,6 +8,7 @@
 |---------------------------|------------------------------------------------------|----------------------------------------------|--------------------------------------|
 | Destilação de Redes Neurais | Caso prático de uma destilação com redes neurais    | [Código](https://github.com/Agents4Good/MasterChef-AI/tree/main/content/destilacao/destilacao_redes_neurais) | Em Breve                             |
 | DistillBert                | Destilação do modelo Bert                           | [Código](https://github.com/Agents4Good/MasterChef-AI/tree/main/content/destilacao/bert_distill)        | ---                                  |
+| Modelo Poscomp | Pipeline de construção do modelo especialista em POSCOMP | [Notebook](https://github.com/Agents4Good/distillation_presentation/blob/main/notebooks/poscomp/pipeline.ipynb) | --- |
 
 ---
 
