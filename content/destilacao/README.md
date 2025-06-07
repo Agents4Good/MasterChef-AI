@@ -23,4 +23,5 @@
 ---
 ## Seminário
 
-> 1º Seminário do Agents4Good sobre Destilação de Conhecimento: https://github.com/Agents4Good/distillation_presentation
+**1º Seminário do Agents4Good sobre Destilação de Conhecimento**:<br>
+[Repositório de Artefatos do Seminário](https://github.com/Agents4Good/distillation_presentation)
