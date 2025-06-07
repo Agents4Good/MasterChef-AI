@@ -1,7 +1,6 @@
 # Destilação de Conhecimento
 
 ---
-
 ## Casos Práticos
 
 | **Tópico**                | **Descrição**                                        | **Código**                                   | **Vídeo**                            |
@@ -11,7 +10,6 @@
 | Modelo Poscomp | Pipeline de construção do modelo especialista em POSCOMP | [Notebook](https://github.com/Agents4Good/distillation_presentation/blob/main/notebooks/poscomp/pipeline.ipynb) | --- |
 
 ---
-
 ## Artigos
 
 | **Título**                                                                                     | **Link**                                           | **Descrição**                                                                 | **Análises em Português**          |
@@ -21,3 +19,8 @@
 | Towards Cross-Tokenizer Distillation: the Universal Logit Distillation Loss for LLMs             | [ArXiv](https://arxiv.org/abs/2402.12030)            | Proposta de técnica de destilação universal para LLMs.                         | Em construção                      |
 | DISTILLM: Towards Streamlined Distillation for Large Language Models                            | [ArXiv](https://arxiv.org/abs/2402.03898)            | Abordagem otimizada para destilação de LLMs.                                   | Em construção                      |
 | DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs                               | [ArXiv](https://arxiv.org/abs/2503.07067)            | Estratégias para melhorar a eficiência da destilação de LLMs.                 | Em construção                      |
+
+---
+## Seminário
+
+> 1º Seminário do Agents4Good sobre Destilação de Conhecimento: https://github.com/Agents4Good/distillation_presentation
