@@ -1,3 +1,5 @@
+> Este repositório foi arquivado por falta de atualização.
+
 ## 📚 Sumário
 
 | **Categoria**         | **Descrição**                                                                 | **Acesso**                                               |
